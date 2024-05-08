@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node10" appversion="7.0.10" apprev="20025">
+  <panorama id="node10">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3683" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3683" levelingpitch="0">
+      <level preload="0" predecode="0" height="3683" width="3683"/>
+      <level preload="0" predecode="0" height="1841" width="1841"/>
+      <level preload="0" predecode="0" height="920" width="920"/>
+      <level preload="1" predecode="1" height="460" width="460"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="112.069" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node10" tags="客廳|日日旅樹民宿" heading="112.069" info="" source="" title="客廳" comment="" datetime="2024/4/1 15:58" longitude="121.60498409" copyright="jp-image.space" description="休閒交誼的好地方" customnodeid="" author="James Lee" latitude="23.98534840">
+      <mapcoords mapid="1st_floorPlan" x="0.288391" x_floorplan_percent="20.0957" y_floorplan_percent="18.2815" y="-0.137329"/>
+    </userdata>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="0" target="$fwd" id="Point01" title="展示空間" pan="61.9428" description="" distance="8.33573" url="{node11}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3690" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3690" levelingpitch="0">
+      <level preload="0" predecode="0" height="3690" width="3690"/>
+      <level preload="0" predecode="0" height="1845" width="1845"/>
+      <level preload="0" predecode="0" height="922" width="922"/>
+      <level preload="1" predecode="1" height="461" width="461"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="54.8109" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node11" tags="客廳|日日旅樹民宿" heading="54.8109" info="" source="" title="展示空間" comment="" datetime="2024/4/1 15:52" longitude="121.60504706" copyright="jp-image.space" description="用來展示多年來，業主在世界各地征戰獲得的戰利品&#xa;以貓頭鷹居多。" customnodeid="" author="James Lee" latitude="23.98539646">
+      <mapcoords mapid="1st_floorPlan" x="0.95993" x_floorplan_percent="66.89" y_floorplan_percent="14.2596" y="-0.107117"/>
+    </userdata>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="0" target="$fwd" id="Point01" title="客廳" pan="184.685" description="" distance="8.33573" url="{node10}" skinid="ht_node"/>
+      <hotspot tilt="0" target="$fwd" id="Point02" title="用餐區" pan="-84.8002" description="" distance="4.43078" url="{node9}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3689" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3689" levelingpitch="0">
+      <level preload="0" predecode="0" height="3689" width="3689"/>
+      <level preload="0" predecode="0" height="1844" width="1844"/>
+      <level preload="0" predecode="0" height="922" width="922"/>
+      <level preload="1" predecode="1" height="461" width="461"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-76.8374" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node9" tags="客廳|日日旅樹民宿" heading="-76.8374" info="" source="" title="用餐區" comment="" datetime="2024/4/1 15:48" longitude="121.60507532" copyright="jp-image.space" description="提供您舒適用餐的環境。&#xa;後面就是廚房，如果您想要一展身手，這就是您的舞台。" customnodeid="" author="James Lee" latitude="23.98536611">
+      <mapcoords mapid="1st_floorPlan" x="0.98465" x_floorplan_percent="68.6124" y_floorplan_percent="57.7697" y="-0.43396"/>
+    </userdata>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="13.76" target="" id="Point01" title="樓梯間" pan="-165.61" description="" distance="6.94844" url="{node6}" skinid="ht_node"/>
+      <hotspot tilt="0" target="$fwd" id="Point02" title="展示空間" pan="-36.4485" description="" distance="4.43078" url="{node11}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3686" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3686" levelingpitch="0">
+      <level preload="0" predecode="0" height="3686" width="3686"/>
+      <level preload="0" predecode="0" height="1843" width="1843"/>
+      <level preload="0" predecode="0" height="921" width="921"/>
+      <level preload="1" predecode="1" height="460" width="460"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="70.1461" fovmode="2">
+      <start tilt="0" pan="-180" fov="173" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node6" tags="房間|日日旅樹民宿" heading="70.1461" info="" source="" title="樓梯間" comment="" datetime="2024/4/1 15:19" longitude="121.60513373" copyright="jp-image.space" description="往二樓的空間" customnodeid="" author="James Lee" latitude="23.98539862">
+      <mapcoords mapid="2nd_floorPlan" x="1.01898" x_floorplan_percent="72.3197" y_floorplan_percent="74.5887" y="-0.560303"/>
+    </userdata>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="-14.8" target="" id="Point02" title="用餐區" pan="-352.25" description="" distance="6.94844" url="{node9}" skinid="ht_node"/>
+      <hotspot tilt="0" target="$fwd" id="Point01" title="Room 201" pan="105.689" description="" distance="6.86294" url="{node7}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3687" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3687" levelingpitch="0">
+      <level preload="0" predecode="0" height="3687" width="3687"/>
+      <level preload="0" predecode="0" height="1843" width="1843"/>
+      <level preload="0" predecode="0" height="921" width="921"/>
+      <level preload="1" predecode="1" height="460" width="460"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="1.22071" fovmode="2">
+      <start tilt="0" pan="-180" fov="130" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node7" tags="房間|日日旅樹民宿" heading="1.22071" info="" source="" title="Room 201" comment="" datetime="2024/4/1 15:26" longitude="121.60509446" copyright="jp-image.space" description="有秘密空間的小窩" customnodeid="" author="James Lee" latitude="23.98544884">
+      <mapcoords mapid="2nd_floorPlan" x="1.0025" x_floorplan_percent="71.1501" y_floorplan_percent="32.9068" y="-0.247192"/>
+    </userdata>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="0" target="$fwd" id="Point01" title="樓梯間" pan="-143.236" description="" distance="6.86294" url="{node6}" skinid="ht_node"/>
+      <hotspot tilt="0" target="$fwd" id="Point02" title="Room 201" pan="141.437" description="" distance="12.949" url="{node8}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3690" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3690" levelingpitch="0">
+      <level preload="0" predecode="0" height="3690" width="3690"/>
+      <level preload="0" predecode="0" height="1845" width="1845"/>
+      <level preload="0" predecode="0" height="922" width="922"/>
+      <level preload="1" predecode="1" height="461" width="461"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="101.678" fovmode="2">
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node8" tags="房間|日日旅樹民宿" heading="101.678" info="" source="" title="Room 201" comment="" datetime="2024/4/1 15:35" longitude="121.60501290" copyright="jp-image.space" description="上面就是每個小朋友必爭的秘密空間。&#xa;得閣樓得天下。" customnodeid="" author="James Lee" latitude="23.98535935">
+      <mapcoords mapid="2nd_floorPlan" x="0.431213" x_floorplan_percent="30.6043" y_floorplan_percent="50.0914" y="-0.376282"/>
+    </userdata>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="0" target="$fwd" id="Point01" title="Room 201" pan="61.8943" description="" distance="12.949" url="{node7}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" tags="" description="" title="" author="" comment=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+  <map index="0" zoomlevels="1" bgcolor="rgba(255, 255, 255, 1)" id="2nd_floorPlan" floorplannorth="37" title="二樓平面圖" crispedges="0" transparent="0" tileformat="png" height="547" type="file" width="1026"/>
+  <map index="1" zoomlevels="1" bgcolor="rgba(255, 255, 255, 1)" id="1st_floorPlan" floorplannorth="37" title="一樓平面圖" crispedges="0" transparent="0" tileformat="png" height="547" type="file" width="1045"/>
+</tour>
