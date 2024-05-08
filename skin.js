@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: skin_with_FloorPlan_and_Logo.ggsk
-// Generated 2024-05-08T18:35:15
+// Generated 2024-05-08T23:28:37
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_thumbnail_menu_tooltip', 2, true, { ignoreInState: 1  });
@@ -120,347 +120,54 @@ function pano2vrSkin(player,base) {
 	this.addSkin=function() {
 		var hs='';
 		this.ggCurrentTime=new Date().getTime();
-		el=me._dropdown_menu=document.createElement('div');
-		el.ggId="Dropdown Menu";
+		el=me._dropdown_floorplan=document.createElement('div');
+		el.ggId="Dropdown FloorPlan";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='height : 142px;';
-		hs+='left : 20px;';
+		hs+='height : 177px;';
 		hs+='position : absolute;';
+		hs+='right : 20px;';
 		hs+='top : 20px;';
 		hs+='visibility : inherit;';
-		hs+='width : 190px;';
+		hs+='width : 300px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._dropdown_menu.ggIsActive=function() {
+		me._dropdown_floorplan.ggIsActive=function() {
 			return false;
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._dropdown_menu.ggUpdatePosition=function (useTransition) {
+		me._dropdown_floorplan.ggUpdatePosition=function (useTransition) {
 		}
-		el=me._dropdown_background=document.createElement('div');
-		el.ggId="Dropdown Background";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=false;
-		el.className="ggskin ggskin_rectangle ";
-		el.ggType='rectangle';
-		hs ='';
-		hs+='background : rgba(128,128,128,0.784314);';
-		hs+='border : 1px solid #005500;';
-		hs+='cursor : default;';
-		hs+='height : 119px;';
-		hs+='left : 0px;';
-		hs+='position : absolute;';
-		hs+='top : 23px;';
-		hs+='visibility : hidden;';
-		hs+='width : 190px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me._dropdown_background.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._dropdown_background.ggUpdatePosition=function (useTransition) {
-		}
-		el=me._dropdown_scrollarea=document.createElement('div');
-		els=me._dropdown_scrollarea__content=document.createElement('div');
-		els.className='ggskin ggskin_subelement ggskin_scrollarea';
-		el.ggContent=els;
-		el.appendChild(els);
-		el.ggHorScrollVisible = false;
-		el.ggVertScrollVisible = false;
-		el.ggContentLeftOffset = 0;
-		el.ggContentTopOffset = 0;
-		el.ggContentWidth = 0;
-		el.ggContentHeight = 0;
-		el.ggDragInertiaX = 0;
-		el.ggDragInertiaY = 0;
-		el.ggVPercentVisible = 1.0;
-		el.ggHPercentVisible = 1.0;
-		el.ggIsDragging = false;
-		hs ='';
-		hs+='height : 23px;';
-		hs+='left : 0px;';
-		hs+='overflow-x : visible;';
-		hs+='overflow-y : visible;';
-		hs+='position : absolute;';
-		hs+='top : 0px;';
-		hs+='width : 170px;';
-		hs+="";
-		els.setAttribute('style',hs);
-		me._dropdown_scrollarea.ggScrollByX = function(diffX) {
-			if(!me._dropdown_scrollarea.ggHorScrollVisible || diffX == 0 || me._dropdown_scrollarea.ggHPercentVisible >= 1.0) return;
-			me._dropdown_scrollarea.ggScrollPosX = (me._dropdown_scrollarea__horScrollFg.offsetLeft + diffX);
-			me._dropdown_scrollarea.ggScrollPosX = Math.max(me._dropdown_scrollarea.ggScrollPosX, 0);
-			me._dropdown_scrollarea.ggScrollPosX = Math.min(me._dropdown_scrollarea.ggScrollPosX, me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
-			me._dropdown_scrollarea__horScrollFg.style.left = me._dropdown_scrollarea.ggScrollPosX + 'px';
-			let percentScrolled = me._dropdown_scrollarea.ggScrollPosX / (me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
-			me._dropdown_scrollarea__content.style.left = -(Math.round((me._dropdown_scrollarea.ggContentWidth * (1.0 - me._dropdown_scrollarea.ggHPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentLeftOffset + 'px';
-			me._dropdown_scrollarea.ggScrollPosXPercent = (me._dropdown_scrollarea__horScrollFg.offsetLeft / me._dropdown_scrollarea__horScrollBg.offsetWidth);
-		}
-		me._dropdown_scrollarea.ggScrollByXSmooth = function(diffX) {
-			if(!me._dropdown_scrollarea.ggHorScrollVisible || diffX == 0 || me._dropdown_scrollarea.ggHPercentVisible >= 1.0) return;
-			var scrollPerInterval = diffX / 25;
-			var scrollCurrX = 0;
-			var id = setInterval(function() {
-				scrollCurrX += scrollPerInterval;
-				me._dropdown_scrollarea.ggScrollPosX += scrollPerInterval;
-				if (diffX > 0 && (scrollCurrX >= diffX || me._dropdown_scrollarea.ggScrollPosX >= me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth)) {
-					me._dropdown_scrollarea.ggScrollPosX = Math.min(me._dropdown_scrollarea.ggScrollPosX, me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
-					clearInterval(id);
-				}
-				if (diffX < 0 && (scrollCurrX <= diffX || me._dropdown_scrollarea.ggScrollPosX <= 0)) {
-					me._dropdown_scrollarea.ggScrollPosX = Math.max(me._dropdown_scrollarea.ggScrollPosX, 0);
-					clearInterval(id);
-				}
-			me._dropdown_scrollarea__horScrollFg.style.left = me._dropdown_scrollarea.ggScrollPosX + 'px';
-			let percentScrolled = me._dropdown_scrollarea.ggScrollPosX / (me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
-			me._dropdown_scrollarea__content.style.left = -(Math.round((me._dropdown_scrollarea.ggContentWidth * (1.0 - me._dropdown_scrollarea.ggHPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentLeftOffset + 'px';
-			me._dropdown_scrollarea.ggScrollPosXPercent = (me._dropdown_scrollarea__horScrollFg.offsetLeft / me._dropdown_scrollarea__horScrollBg.offsetWidth);
-			}, 10);
-		}
-		me._dropdown_scrollarea.ggScrollByY = function(diffY) {
-			if(!me._dropdown_scrollarea.ggVertScrollVisible || diffY == 0 || me._dropdown_scrollarea.ggVPercentVisible >= 1.0) return;
-			me._dropdown_scrollarea.ggScrollPosY = (me._dropdown_scrollarea__vertScrollFg.offsetTop + diffY);
-			me._dropdown_scrollarea.ggScrollPosY = Math.max(me._dropdown_scrollarea.ggScrollPosY, 0);
-			me._dropdown_scrollarea.ggScrollPosY = Math.min(me._dropdown_scrollarea.ggScrollPosY, me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
-			me._dropdown_scrollarea__vertScrollFg.style.top = me._dropdown_scrollarea.ggScrollPosY + 'px';
-			let percentScrolled = me._dropdown_scrollarea.ggScrollPosY / (me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
-			me._dropdown_scrollarea__content.style.top = -(Math.round((me._dropdown_scrollarea.ggContentHeight * (1.0 - me._dropdown_scrollarea.ggVPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentTopOffset + 'px';
-			me._dropdown_scrollarea.ggScrollPosYPercent = (me._dropdown_scrollarea__vertScrollFg.offsetTop / me._dropdown_scrollarea__vertScrollBg.offsetHeight);
-		}
-		me._dropdown_scrollarea.ggScrollByYSmooth = function(diffY) {
-			if(!me._dropdown_scrollarea.ggVertScrollVisible || diffY == 0 || me._dropdown_scrollarea.ggVPercentVisible >= 1.0) return;
-			var scrollPerInterval = diffY / 25;
-			var scrollCurrY = 0;
-			var id = setInterval(function() {
-				scrollCurrY += scrollPerInterval;
-				me._dropdown_scrollarea.ggScrollPosY += scrollPerInterval;
-				if (diffY > 0 && (scrollCurrY >= diffY || me._dropdown_scrollarea.ggScrollPosY >= me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight)) {
-					me._dropdown_scrollarea.ggScrollPosY = Math.min(me._dropdown_scrollarea.ggScrollPosY, me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
-					clearInterval(id);
-				}
-				if (diffY < 0 && (scrollCurrY <= diffY || me._dropdown_scrollarea.ggScrollPosY <= 0)) {
-					me._dropdown_scrollarea.ggScrollPosY = Math.max(me._dropdown_scrollarea.ggScrollPosY, 0);
-					clearInterval(id);
-				}
-			me._dropdown_scrollarea__vertScrollFg.style.top = me._dropdown_scrollarea.ggScrollPosY + 'px';
-			let percentScrolled = me._dropdown_scrollarea.ggScrollPosY / (me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
-			me._dropdown_scrollarea__content.style.top = -(Math.round((me._dropdown_scrollarea.ggContentHeight * (1.0 - me._dropdown_scrollarea.ggVPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentTopOffset + 'px';
-			me._dropdown_scrollarea.ggScrollPosYPercent = (me._dropdown_scrollarea__vertScrollFg.offsetTop / me._dropdown_scrollarea__vertScrollBg.offsetHeight);
-			}, 10);
-		}
-		me._dropdown_scrollarea.ggScrollIntoView = function(posX, posY, width, height) {
-			if (me._dropdown_scrollarea.ggHorScrollVisible) {
-				if (posX < 0) {
-					var diffX = Math.floor(posX * me._dropdown_scrollarea.ggHPercentVisible);
-					me._dropdown_scrollarea.ggScrollByXSmooth(diffX);
-				} else if (posX + width > me._dropdown_scrollarea.clientWidth - (me._dropdown_scrollarea.ggVertScrollVisible ? 15 : 0)) {
-					var diffX = Math.ceil(((posX + width) - (me._dropdown_scrollarea.clientWidth - (me._dropdown_scrollarea.ggVertScrollVisible ? 15 : 0))) * me._dropdown_scrollarea.ggHPercentVisible);
-					me._dropdown_scrollarea.ggScrollByXSmooth(diffX);
-				}
-			}
-			if (me._dropdown_scrollarea.ggVertScrollVisible) {
-				if (posY < 0) {
-					var diffY = Math.floor(posY * me._dropdown_scrollarea.ggVPercentVisible);
-					me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
-				} else if (posY + height > me._dropdown_scrollarea.clientHeight - (me._dropdown_scrollarea.ggHorScrollVisible ? 15 : 0)) {
-					var diffY = Math.ceil(((posY + height) - (me._dropdown_scrollarea.clientHeight - (me._dropdown_scrollarea.ggHorScrollVisible ? 15 : 0))) * me._dropdown_scrollarea.ggVPercentVisible);
-					me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
-				}
-			}
-		}
-		me._dropdown_scrollarea__content.mousetouchend = e => {
-			let inertiaInterval = setInterval(function() {
-				me._dropdown_scrollarea.ggDragInertiaX *= 0.65;
-				me._dropdown_scrollarea.ggDragInertiaY *= 0.65;
-				me._dropdown_scrollarea.ggScrollByX(me._dropdown_scrollarea.ggDragInertiaX);
-				me._dropdown_scrollarea.ggScrollByY(me._dropdown_scrollarea.ggDragInertiaY);
-				if (Math.abs(me._dropdown_scrollarea.ggDragInertiaX) < 1.0 && Math.abs(me._dropdown_scrollarea.ggDragInertiaY) < 1.0) {
-					clearInterval(inertiaInterval);
-				}
-				}, 50);
-			me._dropdown_scrollarea__content.onmouseup = null;
-			me._dropdown_scrollarea__content.onmousemove = null;
-			me._dropdown_scrollarea__content.ontouchend = null;
-			me._dropdown_scrollarea__content.ontouchmove = null;
-			me._dropdown_scrollarea__content.onpointerup = null;
-			me._dropdown_scrollarea__content.onpointermove = null;
-			setTimeout(function() { me._dropdown_scrollarea.ggIsDragging = false; }, 100);
-		}
-		me._dropdown_scrollarea__content.mousetouchmove = e => {
-			e = e || window.event;
-			e.preventDefault();
-			var t = e.touches;
-			var eventX = t ? t[0].clientX : e.clientX;
-			var eventY = t ? t[0].clientY : e.clientY;
-			if (Math.abs(eventX - me._dropdown_scrollarea.ggDragStartX) > 10 || Math.abs(eventY - me._dropdown_scrollarea.ggDragStartY) > 10) me._dropdown_scrollarea.ggIsDragging = true;
-			var diffX = (eventX - me._dropdown_scrollarea.ggDragLastX) * me._dropdown_scrollarea.ggHPercentVisible;
-			var diffY = (eventY - me._dropdown_scrollarea.ggDragLastY) * me._dropdown_scrollarea.ggVPercentVisible;
-			me._dropdown_scrollarea.ggDragInertiaX = -diffX;
-			me._dropdown_scrollarea.ggDragInertiaY = -diffY;
-			me._dropdown_scrollarea.ggDragLastX = eventX;
-			me._dropdown_scrollarea.ggDragLastY = eventY;
-			me._dropdown_scrollarea.ggScrollByX(-diffX);
-			me._dropdown_scrollarea.ggScrollByY(-diffY);
-		}
-		me._dropdown_scrollarea__content.mousetouchstart = e => {
-			e = e || window.event;
-			var t = e.touches;
-			me._dropdown_scrollarea.ggDragLastX = me._dropdown_scrollarea.ggDragStartX = t ? t[0].clientX : e.clientX;
-			me._dropdown_scrollarea.ggDragLastY = me._dropdown_scrollarea.ggDragStartY = t ? t[0].clientY : e.clientY;
-			me._dropdown_scrollarea__content.onmouseup = me._dropdown_scrollarea__content.mousetouchend;
-			me._dropdown_scrollarea__content.ontouchend = me._dropdown_scrollarea__content.mousetouchend;
-			me._dropdown_scrollarea__content.onmousemove = me._dropdown_scrollarea__content.mousetouchmove;
-			me._dropdown_scrollarea__content.ontouchmove = me._dropdown_scrollarea__content.mousetouchmove;
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				me._dropdown_scrollarea__content.onpointerup = me._dropdown_scrollarea__content.ontouchend;
-				me._dropdown_scrollarea__content.onpointermove = me._dropdown_scrollarea__content.ontouchmove;
-			}
-		}
-		els.onmousedown = me._dropdown_scrollarea__content.mousetouchstart;
-		els.ontouchstart = me._dropdown_scrollarea__content.mousetouchstart;
-		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-			els.onpointerdown = me._dropdown_scrollarea__content.mousetouchstart;
-		}
-		elVertScrollBg = me._dropdown_scrollarea__vertScrollBg = document.createElement('div');
-		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 115px; background-color: rgba(128,128,128,0); pointer-events: auto;');
-		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
-		elVertScrollFg = me._dropdown_scrollarea__vertScrollFg = document.createElement('div');
-		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 115px; background-color: rgba(255,255,255,1); pointer-events: auto;');
-		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
-		me._dropdown_scrollarea.ggScrollPosY = 0;
-		me._dropdown_scrollarea.ggScrollPosYPercent = 0.0;
-		elVertScrollFg.onmousedown = function(e) {
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) return;
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			me._dropdown_scrollarea.ggDragLastY = e.clientY;
-			document.onmouseup = function() {
-				let inertiaInterval = setInterval(function() {
-					me._dropdown_scrollarea.ggDragInertiaY *= 0.65;
-					me._dropdown_scrollarea.ggScrollByY(me._dropdown_scrollarea.ggDragInertiaY);
-					if (Math.abs(me._dropdown_scrollarea.ggDragInertiaY) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.onmouseup = null;
-				document.onmousemove = null;
-			}
-			document.onmousemove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var diffY = e.clientY - me._dropdown_scrollarea.ggDragLastY;
-				me._dropdown_scrollarea.ggDragInertiaY = diffY;
-				me._dropdown_scrollarea.ggDragLastY = e.clientY;
-				me._dropdown_scrollarea.ggScrollByY(diffY);
-			}
-		}
-		elVertScrollFg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			me._dropdown_scrollarea.ggDragLastY = t ? t[0].clientY : e.clientY;
-			document.ontouchend = function() {
-				let inertiaInterval = setInterval(function() {
-					me._dropdown_scrollarea.ggDragInertiaY *= 0.65;
-					me._dropdown_scrollarea.ggScrollByY(me._dropdown_scrollarea.ggDragInertiaY);
-					if (Math.abs(me._dropdown_scrollarea.ggDragInertiaY) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.ontouchend = null;
-				document.ontouchmove = null;
-				document.onpointerup = null;
-				document.onpointermove = null;
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointerup = document.ontouchend;
-			}
-			document.ontouchmove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var t = e.touches;
-				var diffY = (t ? t[0].clientY : e.clientY) - me._dropdown_scrollarea.ggDragLastY;
-				me._dropdown_scrollarea.ggDragInertiaY = diffY;
-				me._dropdown_scrollarea.ggDragLastY = t ? t[0].clientY : e.clientY;
-				me._dropdown_scrollarea.ggScrollByY(diffY);
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointermove = document.ontouchmove;
-			}
-		}
-		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-			elVertScrollFg.onpointerdown = elVertScrollFg.ontouchstart;
-		}
-		elVertScrollBg.onmousedown = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			var diffY = me._dropdown_scrollarea.ggScrollHeight;
-			if (e.offsetY < me._dropdown_scrollarea.ggScrollPosY) {
-				diffY = diffY * -1;
-			}
-			me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
-		}
-		elVertScrollBg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			var rect = me._dropdown_scrollarea__vertScrollBg.getBoundingClientRect();
-			var diffY = me._dropdown_scrollarea.ggScrollHeight;
-			if ((t[0].clientY - rect.top) < me._dropdown_scrollarea.ggScrollPosY) {
-				diffY = diffY * -1;
-			}
-			me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
-		}
-		el.addEventListener('wheel', function(e) {
-			e.preventDefault();
-			var wheelDelta = Math.sign(e.deltaY);
-			me._dropdown_scrollarea.ggScrollByYSmooth(30 * me._dropdown_scrollarea.ggVPercentVisible * wheelDelta);
-		});
-		elCornerBg = me._dropdown_scrollarea__cornerBg = document.createElement('div');
-		el.appendChild(elCornerBg);
-		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 15px; height: 15px; background-color: rgba(255,255,255,1);');
-		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
-		el.ggId="Dropdown Scrollarea";
+		el=me._map_1=document.createElement('div');
+		el.ggFilter = '';
+		el.ggFilteredIds = [];
+		el.ggMapNotLoaded = true;
+		el.ggMapId = '2nd_floorPlan';
+		el.ggId="Map 1";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_scrollarea ";
-		el.ggType='scrollarea';
+		el.className="ggskin ggskin_map ";
+		el.ggType='map';
 		hs ='';
 		hs+='border : 0px solid #000000;';
-		hs+='cursor : pointer;';
-		hs+='height : 115px;';
-		hs+='left : 0px;';
+		hs+='cursor : default;';
+		hs+='height : 157px;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
+		hs+='right : 0px;';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
-		hs+='width : 187px;';
+		hs+='width : 300px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._dropdown_scrollarea.ggIsActive=function() {
+		me._map_1.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -472,279 +179,39 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._dropdown_scrollarea.ggUpdatePosition=function (useTransition) {
-			{
-				var horScrollWasVisible = this.ggHorScrollVisible;
-				var vertScrollWasVisible = this.ggVertScrollVisible;
-				this.ggContent.style.left = '0px';
-				this.ggContent.style.top = '0px';
-				this.ggContentLeftOffset = 0;
-				this.ggContentTopOffset = 0;
-				var offsetWidthWithScale = this.getBoundingClientRect().width;
-				var offsetHeightWithScale = this.getBoundingClientRect().height;
-				var domRectContent = this.ggContent.getBoundingClientRect();
-				var minX = 0;
-				var minY = 0;
-				var maxX = 0;
-				var maxY = 0;
-				var stack=[];
-				stack.push(this.ggContent);
-				while(stack.length>0) {
-					var e=stack.pop();
-					if (e!=this.ggContent && e.getBoundingClientRect && e.style['display']!='none' && (e.offsetWidth != 0 || e.offsetHeight != 0)) {
-						var domRectChild = e.getBoundingClientRect();
-						var diffX = domRectChild.left - domRectContent.left;
-						minX = Math.min(minX, diffX);
-						maxX = Math.max(maxX, diffX + domRectChild.width);
-						var diffY = domRectChild.top - domRectContent.top;
-						minY = Math.min(minY, diffY);
-						maxY = Math.max(maxY, diffY + domRectChild.height);
-					}
-					if (e.hasChildNodes() && e.style['display']!='none' && e.style['overflow']!='hidden') {
-						for(var i=0;i<e.childNodes.length;i++) {
-							stack.push(e.childNodes[i]);
-						}
-					}
-				}
-				if (minX < 0) this.ggContentLeftOffset = -minX;
-				if (minY < 0) this.ggContentTopOffset = -minY;
-				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
-				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				var contentWidth = maxX - minX;
-				this.ggContent.style.width = contentWidth + 'px';
-				var contentHeight = maxY - minY;
-				this.ggContent.style.height = contentHeight + 'px';
-			var scaleX = this.getBoundingClientRect().width / this.offsetWidth;
-				this.ggContentWidth = contentWidth / scaleX;
-			var scaleY = this.getBoundingClientRect().height / this.offsetHeight;
-				this.ggContentHeight = contentHeight / scaleY;
-				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
-				this.ggContent.style.marginLeft = '0px';
-				this.ggContent.style.top = -(Math.round(me._dropdown_scrollarea.ggScrollPosY / me._dropdown_scrollarea.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
-				this.ggContent.style.marginTop = '0px';
-				if ((me._dropdown_scrollarea.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._dropdown_scrollarea.ggHorScrollVisible && contentHeight > this.clientHeight)) {
-					me._dropdown_scrollarea__vertScrollBg.style.visibility = 'inherit';
-					me._dropdown_scrollarea__vertScrollFg.style.visibility = 'inherit';
-					me._dropdown_scrollarea.ggVertScrollVisible = true;
-				} else {
-					me._dropdown_scrollarea__vertScrollBg.style.visibility = 'hidden';
-					me._dropdown_scrollarea__vertScrollFg.style.visibility = 'hidden';
-					me._dropdown_scrollarea.ggVertScrollVisible = false;
-				}
-				if(me._dropdown_scrollarea.ggVertScrollVisible) {
-					me._dropdown_scrollarea.ggAvailableWidth = me._dropdown_scrollarea.clientWidth - 15;
-					if (me._dropdown_scrollarea.ggHorScrollVisible) {
-						me._dropdown_scrollarea.ggAvailableHeight = me._dropdown_scrollarea.clientHeight - 15;
-						me._dropdown_scrollarea.ggAvailableHeightWithScale = me._dropdown_scrollarea.getBoundingClientRect().height - me._dropdown_scrollarea__vertScrollBg.getBoundingClientRect().width;
-						me._dropdown_scrollarea__cornerBg.style.visibility = 'inherit';
-					} else {
-						me._dropdown_scrollarea.ggAvailableHeight = me._dropdown_scrollarea.clientHeight;
-						me._dropdown_scrollarea.ggAvailableHeightWithScale = me._dropdown_scrollarea.getBoundingClientRect().height;
-						me._dropdown_scrollarea__cornerBg.style.visibility = 'hidden';
-					}
-					me._dropdown_scrollarea__vertScrollBg.style.height = me._dropdown_scrollarea.ggAvailableHeight + 'px';
-					me._dropdown_scrollarea.ggVPercentVisible = contentHeight != 0 ? me._dropdown_scrollarea.ggAvailableHeightWithScale / contentHeight : 0.0;
-					if (me._dropdown_scrollarea.ggVPercentVisible > 1.0) me._dropdown_scrollarea.ggVPercentVisible = 1.0;
-					me._dropdown_scrollarea.ggScrollHeight =  Math.round(me._dropdown_scrollarea__vertScrollBg.offsetHeight * me._dropdown_scrollarea.ggVPercentVisible);
-					me._dropdown_scrollarea__vertScrollFg.style.height = me._dropdown_scrollarea.ggScrollHeight + 'px';
-					me._dropdown_scrollarea.ggScrollPosY = me._dropdown_scrollarea.ggScrollPosYPercent * me._dropdown_scrollarea.ggAvailableHeight;
-					me._dropdown_scrollarea.ggScrollPosY = Math.min(me._dropdown_scrollarea.ggScrollPosY, me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
-					me._dropdown_scrollarea__vertScrollFg.style.top = me._dropdown_scrollarea.ggScrollPosY + 'px';
-					if (me._dropdown_scrollarea.ggVPercentVisible < 1.0) {
-						let percentScrolled = me._dropdown_scrollarea.ggScrollPosY / (me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
-						me._dropdown_scrollarea__content.style.top = -(Math.round((me._dropdown_scrollarea.ggContentHeight * (1.0 - me._dropdown_scrollarea.ggVPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentTopOffset + 'px';
-					}
-				} else {
-					me._dropdown_scrollarea.ggAvailableWidth = me._dropdown_scrollarea.clientWidth;
-					me._dropdown_scrollarea.ggScrollPosY = 0;
-					me._dropdown_scrollarea.ggScrollPosYPercent = 0.0;
-					me._dropdown_scrollarea__content.style.top = this.ggContentTopOffset + 'px';
-					me._dropdown_scrollarea__cornerBg.style.visibility = 'hidden';
-				}
-				if(horScrollWasVisible != me._dropdown_scrollarea.ggHorScrollVisible || vertScrollWasVisible != me._dropdown_scrollarea.ggVertScrollVisible) {
-					skin.updateSize(me._dropdown_scrollarea);
-					me._dropdown_scrollarea.ggUpdatePosition();
-				}
+		me._map_1.ggUpdateConditionResize=function () {
+			var mapDetails = player.getMapDetails(me._map_1.ggMapId);
+			if (mapDetails.hasOwnProperty('title')) {
+				me._map_1.ggCalculateFloorplanSize(mapDetails);
+				me._map_1.ggShowSimpleFloorplan(mapDetails);
+				me._map_1.ggPlaceMarkersOnSimpleFloorplan();
 			}
+			if (me._map_1.ggRadar) me._map_1.ggRadar.update();
 		}
-		el=me._dropdown_cloner=document.createElement('div');
-		el.isDragging = function() {
-			let scrollerParent = me._dropdown_cloner;
-			while ((scrollerParent = scrollerParent.parentNode) != null) {
-				if (scrollerParent.hasOwnProperty('ggIsDragging') && scrollerParent.ggIsDragging == true) return true;
-			}
-			return false;
+		me._map_1.ggUpdatePosition=function (useTransition) {
+			me._map_1.ggUpdateConditionResize();
 		}
-		el.ggNumRepeat = 1;
-		el.ggNumRows = 0;
-		el.ggNumCols = 0;
-		el.ggCloneOffset = 0;
-		el.ggCloneOffsetChanged = false;
-		el.ggWidth = 169;
-		el.ggHeight = 24;
-		el.ggUpdating = false;
-		el.ggFilter = [];
-		el.ggFilterHsSkinId = '';
-		el.ggInstances = [];
-		el.ggNumFilterPassed = 0;
-		el.getFilteredNodes = function(tourNodes, filter) {
-			var filteredNodes = [];
-			for (var i = 0; i < tourNodes.length; i++) {
-				var nodeId = tourNodes[i];
-				var passed = true;
-				var nodeData = player.getNodeUserdata(nodeId);
-				if (filter.length > 0) {
-					for (var j=0; j < filter.length; j++) {
-						if (nodeData['tags'].indexOf(filter[j].trim()) == -1) passed = false;
-					}
-				}
-				if (passed) {
-					filteredNodes.push(nodeId);
-				}
-			}
-			return filteredNodes;
-		}
-		el.ggUpdate = function(filter) {
-			if(me._dropdown_cloner.ggUpdating == true) return;
-			me._dropdown_cloner.ggUpdating = true;
-			var el=me._dropdown_cloner;
-			var curNumCols = 0;
-			curNumCols = me._dropdown_cloner.ggNumRepeat;
-			if (curNumCols < 1) curNumCols = 1;
-			if (typeof filter=='object') {
-				el.ggFilter = filter;
-			} else {
-				filter = el.ggFilter;
-			};
-			if (me.ggTag) filter.push(me.ggTag);
-			filter=filter.sort();
-			if ((el.ggNumCols == curNumCols) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) )) {
-				me._dropdown_cloner.ggUpdating = false;
-				return;
-			} else {
-				el.ggNumRows = 1;
-				el.ggNumCols = curNumCols;
-			var centerOffsetHor = 0;
-			var centerOffsetVert = 0;
-				me._dropdown_cloner.ggCloneOffsetChanged = false;
-			}
-			el.ggCurrentFilter = filter;
-			el.ggInstances = [];
-			if (el.hasChildNodes() == true) {
-				while (el.firstChild) {
-					el.removeChild(el.firstChild);
-				}
-			}
-			var tourNodes = player.getNodeIds();
-			var row = 0;
-			var column = 0;
-			var currentIndex = 0;
-			var keepCloning = true;
-			tourNodes = me._dropdown_cloner.getFilteredNodes(tourNodes, filter);
-			me._dropdown_cloner.ggNumFilterPassed = tourNodes.length;
-			for (var i = 0; i < tourNodes.length; i++) {
-				var nodeId = tourNodes[i];
-				var nodeData = player.getNodeUserdata(nodeId);
-				if (!keepCloning || i < me._dropdown_cloner.ggCloneOffset) continue;
-				var parameter={};
-				parameter.top = centerOffsetVert + (row * me._dropdown_cloner.ggHeight) + 'px';
-				parameter.left = centerOffsetHor + (column * me._dropdown_cloner.ggWidth) + 'px';
-				parameter.width=me._dropdown_cloner.ggWidth + 'px';
-				parameter.height=me._dropdown_cloner.ggHeight + 'px';
-				parameter.index=currentIndex;
-				parameter.title=nodeData['title'];
-				var inst = new SkinCloner_dropdown_cloner_Class(nodeId, me, el, parameter);
-				currentIndex++;
-				el.ggInstances.push(inst);
-				el.appendChild(inst.__div);
-				inst.__div.ggObj=inst;
-				skin.updateSize(inst.__div);
-				column++;
-				if (column >= el.ggNumCols) {
-					column = 0;
-					row++;
-					el.ggNumRows++;
-				}
-			}
-			me._dropdown_cloner.ggNodeCount = me._dropdown_cloner.ggNumFilterPassed;
-			me._dropdown_cloner.ggUpdating = false;
-			player.triggerEvent('clonerchanged');
-			if (me._dropdown_cloner.parentNode && me._dropdown_cloner.parentNode.classList.contains('ggskin_subelement') && me._dropdown_cloner.parentNode.parentNode.classList.contains('ggskin_scrollarea')) me._dropdown_cloner.parentNode.parentNode.ggUpdatePosition();
-		}
-		el.ggFilter = [];
-		el.ggId="Dropdown Cloner";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_cloner ";
-		el.ggType='cloner';
-		hs ='';
-		hs+='height : 24px;';
-		hs+='left : 0px;';
-		hs+='overflow : visible;';
-		hs+='position : absolute;';
-		hs+='top : 0px;';
-		hs+='visibility : inherit;';
-		hs+='width : 169px;';
-		hs+='pointer-events:none;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me._dropdown_cloner.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._dropdown_cloner.ggUpdateConditionNodeChange=function () {
-			var cnode=player.getCurrentNode();
-			for(var i=0; i<me._dropdown_cloner.childNodes.length; i++) {
-				var child=me._dropdown_cloner.childNodes[i];
-				if (child.ggObj && child.ggObj.ggNodeId==cnode) {
-			        var childOffX = child.offsetLeft;
-			        var childOffY = child.offsetTop;
-					var p = child.parentElement;
-			        while (p != null && p!==this.divSkin) {
-						if (p.ggType && p.ggType == 'scrollarea') {
-							p.ggScrollIntoView(childOffX, childOffY, child.clientWidth, child.clientHeight);
-						}
-						childOffX += p.offsetLeft;
-						childOffY += p.offsetTop;
-						p = p.parentElement;
-					}
-				}
-			}
-		}
-		me._dropdown_cloner.ggUpdatePosition=function (useTransition) {
-			me._dropdown_cloner.ggUpdate();
-		}
-		me._dropdown_scrollarea__content.appendChild(me._dropdown_cloner);
-		me._dropdown_background.appendChild(me._dropdown_scrollarea);
-		me._dropdown_menu.appendChild(me._dropdown_background);
-		el=me._dropdown_menu_title_background=document.createElement('div');
-		el.ggId="Dropdown Menu Title Background";
+		me._dropdown_floorplan.appendChild(me._map_1);
+		el=me._dropdown_floorplan_title_background=document.createElement('div');
+		el.ggId="Dropdown FloorPlan Title Background";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
 		hs+='background : #ffffff;';
-		hs+='border : 1px solid #005500;';
+		hs+='border : 0px solid #005500;';
 		hs+='cursor : pointer;';
 		hs+='height : 20px;';
-		hs+='left : 0px;';
 		hs+='position : absolute;';
+		hs+='right : 0px;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 190px;';
+		hs+='width : 300px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._dropdown_menu_title_background.ggIsActive=function() {
+		me._dropdown_floorplan_title_background.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -756,60 +223,46 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._dropdown_menu_title_background.logicBlock_backgroundcolor = function() {
-			var newLogicStateBackgroundColor;
-			if (
-				((me.elementMouseOver['dropdown_menu_title_background'] == true))
-			)
-			{
-				newLogicStateBackgroundColor = 0;
-			}
-			else {
-				newLogicStateBackgroundColor = -1;
-			}
-			if (me._dropdown_menu_title_background.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
-				me._dropdown_menu_title_background.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
-				me._dropdown_menu_title_background.style.transition='background-color 0s';
-				if (me._dropdown_menu_title_background.ggCurrentLogicStateBackgroundColor == 0) {
-					me._dropdown_menu_title_background.style.backgroundColor="rgba(239,239,239,1)";
+		me._dropdown_floorplan_title_background.onclick=function (e) {
+			me._map_1.ggVisible = !me._map_1.ggVisible;
+			var flag=me._map_1.ggVisible;
+			if (me._map_1.ggVisible) {
+				if (me._map_1.ggMapNotLoaded && me._map_1.ggInitMap) {
+					me._map_1.ggInitMap(false);
+					me._map_1.ggInitMapMarkers(true);
 				}
-				else {
-					me._dropdown_menu_title_background.style.backgroundColor="rgba(255,255,255,1)";
-				}
+			} else {
+				if (me._map_1.ggClearMap) me._map_1.ggClearMap();
 			}
+			me._map_1.style.transition='none';
+			me._map_1.style.visibility=((flag)&&(Number(me._map_1.style.opacity)>0||!me._map_1.style.opacity))?'inherit':'hidden';
+			me._dropdown_floorplan_open.ggVisible = !me._dropdown_floorplan_open.ggVisible;
+			var flag=me._dropdown_floorplan_open.ggVisible;
+			me._dropdown_floorplan_open.style.transition='none';
+			me._dropdown_floorplan_open.style.visibility=((flag)&&(Number(me._dropdown_floorplan_open.style.opacity)>0||!me._dropdown_floorplan_open.style.opacity))?'inherit':'hidden';
+			me._dropdown_floorplan_close.ggVisible = !me._dropdown_floorplan_close.ggVisible;
+			var flag=me._dropdown_floorplan_close.ggVisible;
+			me._dropdown_floorplan_close.style.transition='none';
+			me._dropdown_floorplan_close.style.visibility=((flag)&&(Number(me._dropdown_floorplan_close.style.opacity)>0||!me._dropdown_floorplan_close.style.opacity))?'inherit':'hidden';
+			me._dropdown_floorplan_title.ggVisible = !me._dropdown_floorplan_title.ggVisible;
+			var flag=me._dropdown_floorplan_title.ggVisible;
+			me._dropdown_floorplan_title.style.transition='none';
+			me._dropdown_floorplan_title.style.visibility=((flag)&&(Number(me._dropdown_floorplan_title.style.opacity)>0||!me._dropdown_floorplan_title.style.opacity))?'inherit':'hidden';
+			me._dropdown_floorplan_empty_title.ggVisible = !me._dropdown_floorplan_empty_title.ggVisible;
+			var flag=me._dropdown_floorplan_empty_title.ggVisible;
+			me._dropdown_floorplan_empty_title.style.transition='none';
+			me._dropdown_floorplan_empty_title.style.visibility=((flag)&&(Number(me._dropdown_floorplan_empty_title.style.opacity)>0||!me._dropdown_floorplan_empty_title.style.opacity))?'inherit':'hidden';
 		}
-		me._dropdown_menu_title_background.logicBlock_backgroundcolor();
-		me._dropdown_menu_title_background.onclick=function (e) {
-			me._dropdown_background.ggVisible = !me._dropdown_background.ggVisible;
-			var flag=me._dropdown_background.ggVisible;
-			me._dropdown_background.style.transition='none';
-			me._dropdown_background.style.visibility=((flag)&&(Number(me._dropdown_background.style.opacity)>0||!me._dropdown_background.style.opacity))?'inherit':'hidden';
-			me._dropdown_open.ggVisible = !me._dropdown_open.ggVisible;
-			var flag=me._dropdown_open.ggVisible;
-			me._dropdown_open.style.transition='none';
-			me._dropdown_open.style.visibility=((flag)&&(Number(me._dropdown_open.style.opacity)>0||!me._dropdown_open.style.opacity))?'inherit':'hidden';
-			me._dropdown_close.ggVisible = !me._dropdown_close.ggVisible;
-			var flag=me._dropdown_close.ggVisible;
-			me._dropdown_close.style.transition='none';
-			me._dropdown_close.style.visibility=((flag)&&(Number(me._dropdown_close.style.opacity)>0||!me._dropdown_close.style.opacity))?'inherit':'hidden';
+		me._dropdown_floorplan_title_background.ggUpdatePosition=function (useTransition) {
 		}
-		me._dropdown_menu_title_background.onmouseover=function (e) {
-			me.elementMouseOver['dropdown_menu_title_background']=true;
-			me._dropdown_menu_title_background.logicBlock_backgroundcolor();
-		}
-		me._dropdown_menu_title_background.onmouseout=function (e) {
-			me.elementMouseOver['dropdown_menu_title_background']=false;
-			me._dropdown_menu_title_background.logicBlock_backgroundcolor();
-		}
-		me._dropdown_menu_title_background.ggUpdatePosition=function (useTransition) {
-		}
-		el=me._dropdown_menu_title=document.createElement('div');
-		els=me._dropdown_menu_title__text=document.createElement('div');
+		el=me._dropdown_floorplan_empty_title=document.createElement('div');
+		els=me._dropdown_floorplan_empty_title__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
-		el.ggId="Dropdown Menu Title";
+		el.ggId="Dropdown FloorPlan Empty Title";
+		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
@@ -818,11 +271,11 @@ function pano2vrSkin(player,base) {
 		hs+='color : rgba(0,0,0,1);';
 		hs+='cursor : default;';
 		hs+='height : 20px;';
-		hs+='left : 2px;';
+		hs+='left : calc(50% - ((300px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
-		hs+='top : 1px;';
-		hs+='visibility : inherit;';
-		hs+='width : 166px;';
+		hs+='top : 2px;';
+		hs+='visibility : hidden;';
+		hs+='width : 300px;';
 		hs+='pointer-events:none;';
 		hs+='font-weight: bold;';
 		el.setAttribute('style',hs);
@@ -835,27 +288,23 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events: none;';
 		hs+='font-size: 12px;';
 		hs+='font-weight: bold;';
-		hs+='text-align: left;';
+		hs+='text-align: center;';
 		hs+='white-space: pre;';
 		hs+='padding: 1px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		me._dropdown_menu_title.ggUpdateText=function() {
+		me._dropdown_floorplan_empty_title.ggUpdateText=function() {
 			var params = [];
-			params.push(String(player._(me.ggUserdata.title)));
-			var hs = player._("%1", params);
+			var hs = player._("\u5e73\u9762\u5716 \u9ede\u64ca\u5c55\u958b", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
 				if (this.ggUpdatePosition) this.ggUpdatePosition();
 			}
 		}
-		me._dropdown_menu_title.ggUpdateText();
-		player.addListener('changenode', function() {
-			me._dropdown_menu_title.ggUpdateText();
-		});
+		me._dropdown_floorplan_empty_title.ggUpdateText();
 		el.appendChild(els);
-		me._dropdown_menu_title.ggIsActive=function() {
+		me._dropdown_floorplan_empty_title.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -867,37 +316,105 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._dropdown_menu_title.ggUpdatePosition=function (useTransition) {
+		me._dropdown_floorplan_empty_title.ggUpdatePosition=function (useTransition) {
 		}
-		me._dropdown_menu_title_background.appendChild(me._dropdown_menu_title);
-		el=me._dropdown_open=document.createElement('div');
-		els=me._dropdown_open__img=document.createElement('img');
+		me._dropdown_floorplan_title_background.appendChild(me._dropdown_floorplan_empty_title);
+		el=me._dropdown_floorplan_title=document.createElement('div');
+		els=me._dropdown_floorplan_title__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Dropdown FloorPlan Title";
+		el.ggDx=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='border : 0px solid #000000;';
+		hs+='border-radius : 5px;';
+		hs+='color : rgba(0,0,0,1);';
+		hs+='cursor : default;';
+		hs+='height : 20px;';
+		hs+='left : calc(50% - ((300px + 0px) / 2) + 0px);';
+		hs+='position : absolute;';
+		hs+='top : 1px;';
+		hs+='visibility : inherit;';
+		hs+='width : 300px;';
+		hs+='pointer-events:none;';
+		hs+='font-weight: bold;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		hs ='';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='width: 100%;';
+		hs+='height: 100%;';
+		hs+='pointer-events: none;';
+		hs+='font-size: 12px;';
+		hs+='font-weight: bold;';
+		hs+='text-align: center;';
+		hs+='white-space: pre;';
+		hs+='padding: 1px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		me._dropdown_floorplan_title.ggUpdateText=function() {
+			var params = [];
+			params.push(String(player._(me.ggUserdata.title)));
+			var hs = player._("\u5e73\u9762\u5716 -- %1 ", params);
+			if (hs!=this.ggText) {
+				this.ggText=hs;
+				this.ggTextDiv.innerHTML=hs;
+				if (this.ggUpdatePosition) this.ggUpdatePosition();
+			}
+		}
+		me._dropdown_floorplan_title.ggUpdateText();
+		player.addListener('changenode', function() {
+			me._dropdown_floorplan_title.ggUpdateText();
+		});
+		el.appendChild(els);
+		me._dropdown_floorplan_title.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_floorplan_title.ggUpdatePosition=function (useTransition) {
+		}
+		me._dropdown_floorplan_title_background.appendChild(me._dropdown_floorplan_title);
+		el=me._dropdown_floorplan_open=document.createElement('div');
+		els=me._dropdown_floorplan_open__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
 		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgJy0vL1czQy8vRFREIFNWRyAxLjEvL0VOJyAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE1LjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyMCAyMCIgaWQ9IkxheWVyXzEiIHZlcn'+
 			'Npb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iMjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxwb2x5Z29uIHBvaW50cz0iMCwwIDEwLDIwIDIwLDAgIiBmaWxsLW9wYWNpdHk9IjEiIGZpbGw9IiMwMDAwMDAiLz4KPC9zdmc+Cg==';
-		me._dropdown_open__img.setAttribute('src',hs);
+		me._dropdown_floorplan_open__img.setAttribute('src',hs);
 		hs ='';
 		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
 		els.setAttribute('style', hs);
 		els['ondragstart']=function() { return false; };
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="Dropdown Open";
+		el.ggId="Dropdown FloorPlan Open";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
 		hs+='height : 10px;';
-		hs+='left : 175px;';
 		hs+='position : absolute;';
+		hs+='right : 5px;';
 		hs+='top : 5px;';
 		hs+='visibility : inherit;';
 		hs+='width : 10px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._dropdown_open.ggIsActive=function() {
+		me._dropdown_floorplan_open.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -909,37 +426,37 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._dropdown_open.ggUpdatePosition=function (useTransition) {
+		me._dropdown_floorplan_open.ggUpdatePosition=function (useTransition) {
 		}
-		me._dropdown_menu_title_background.appendChild(me._dropdown_open);
-		el=me._dropdown_close=document.createElement('div');
-		els=me._dropdown_close__img=document.createElement('img');
+		me._dropdown_floorplan_title_background.appendChild(me._dropdown_floorplan_open);
+		el=me._dropdown_floorplan_close=document.createElement('div');
+		els=me._dropdown_floorplan_close__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
 		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgJy0vL1czQy8vRFREIFNWRyAxLjEvL0VOJyAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE1LjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyMCAyMCIgaWQ9IkxheWVyXzEiIHZlcn'+
 			'Npb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iMjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxwb2x5Z29uIHBvaW50cz0iMjAsMjAgMTAsMCAwLDIwICIgZmlsbC1vcGFjaXR5PSIxIiBmaWxsPSIjMDAwMDAwIi8+Cjwvc3ZnPgo=';
-		me._dropdown_close__img.setAttribute('src',hs);
+		me._dropdown_floorplan_close__img.setAttribute('src',hs);
 		hs ='';
 		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
 		els.setAttribute('style', hs);
 		els['ondragstart']=function() { return false; };
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="Dropdown Close";
+		el.ggId="Dropdown FloorPlan Close";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
 		hs+='height : 10px;';
-		hs+='left : 175px;';
 		hs+='position : absolute;';
+		hs+='right : 5px;';
 		hs+='top : 5px;';
 		hs+='visibility : hidden;';
 		hs+='width : 10px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._dropdown_close.ggIsActive=function() {
+		me._dropdown_floorplan_close.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -951,11 +468,11 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._dropdown_close.ggUpdatePosition=function (useTransition) {
+		me._dropdown_floorplan_close.ggUpdatePosition=function (useTransition) {
 		}
-		me._dropdown_menu_title_background.appendChild(me._dropdown_close);
-		me._dropdown_menu.appendChild(me._dropdown_menu_title_background);
-		me.divSkin.appendChild(me._dropdown_menu);
+		me._dropdown_floorplan_title_background.appendChild(me._dropdown_floorplan_close);
+		me._dropdown_floorplan.appendChild(me._dropdown_floorplan_title_background);
+		me.divSkin.appendChild(me._dropdown_floorplan);
 		el=me._image_1=document.createElement('div');
 		els=me._image_1__img=document.createElement('img');
 		els.className='ggskin ggskin_image_1';
@@ -976,10 +493,10 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='bottom : 15px;';
+		hs+='bottom : 20px;';
 		hs+='cursor : pointer;';
 		hs+='height : 110px;';
-		hs+='left : 15px;';
+		hs+='left : 20px;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 110px;';
@@ -1010,19 +527,18 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="booking";
-		el.ggDx=0;
 		el.ggDy=-80;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1.2,sy:1.2,def:'translate(-50%, -50%) ' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1.2,sy:1.2,def:'translate(0px, -50%) ' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
 		hs+='color : rgba(255,255,255,1);';
 		hs+='height : auto;';
-		hs+='left : calc(50% - ((0px + 0px) / 2) + 0px);';
+		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : calc(50% - ((0px + 0px) / 2) - 80px);';
-		hs+='transform : translate(-50%, -50%);;';
+		hs+='transform : translate(0px, -50%);;';
 		hs+='visibility : hidden;';
 		hs+='width : auto;';
 		hs+='pointer-events:auto;';
@@ -1968,7 +1484,7 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._thumbnail_menu);
 		el=me._button_fullscreen_1=document.createElement('div');
 		el.ggId="button_fullscreen_1";
-		el.ggDx=32;
+		el.ggDx=108;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -1976,7 +1492,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='bottom : 23px;';
 		hs+='height : 32px;';
-		hs+='left : calc(50% - ((32px + 0px) / 2) + 32px);';
+		hs+='left : calc(50% - ((32px + 0px) / 2) + 108px);';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
@@ -2276,7 +1792,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._tt_fullscreen.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("", params);
+			var hs = player._(" \u5168\u87a2\u5e55 Full Screen", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -2403,7 +1919,7 @@ function pano2vrSkin(player,base) {
 					if (me._tt_fullscreen.ggUpdateText) {
 					me._tt_fullscreen.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("", params);
+						var hs = player._(" \u5168\u87a2\u5e55 Full Screen", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -2424,7 +1940,7 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._button_fullscreen_1);
 		el=me._button_zoom=document.createElement('div');
 		el.ggId="button_zoom";
-		el.ggDx=83;
+		el.ggDx=-48;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -2432,7 +1948,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='bottom : 23px;';
 		hs+='height : 32px;';
-		hs+='left : calc(50% - ((64px + 0px) / 2) + 83px);';
+		hs+='left : calc(50% - ((64px + 0px) / 2) - 48px);';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 64px;';
@@ -2568,7 +2084,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._tt_zoomout.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("Zoom Out", params);
+			var hs = player._("\u7e2e\u5c0f Zoom Out", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -2766,7 +2282,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._tt_zoomin.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("Zoom In", params);
+			var hs = player._("\u653e\u5927 Zoom In", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -2844,7 +2360,7 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._button_zoom);
 		el=me._button_next_previous=document.createElement('div');
 		el.ggId="button_next_previous";
-		el.ggDx=164;
+		el.ggDx=52;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -2852,10 +2368,10 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='bottom : 23px;';
 		hs+='height : 32px;';
-		hs+='left : calc(50% - ((72px + 0px) / 2) + 164px);';
+		hs+='left : calc(50% - ((69px + 0px) / 2) + 52px);';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 72px;';
+		hs+='width : 69px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -2912,7 +2428,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
-		hs+='left : 0px;';
+		hs+='left : 2px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
@@ -2986,7 +2502,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._tt_pano_prev.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("Previous Panorama", params);
+			var hs = player._("\u4e0a\u4e00\u500b\u71b1\u9ede Previous Panorama", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -3106,7 +2622,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
-		hs+='left : 40px;';
+		hs+='left : 35px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
@@ -3180,7 +2696,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._tt_pano_next.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("Next Panorama", params);
+			var hs = player._("\u4e0b\u4e00\u500b\u71b1\u9ede Next Panorama", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -3256,68 +2772,842 @@ function pano2vrSkin(player,base) {
 		me._pano_next.appendChild(me._tt_pano_next);
 		me._button_next_previous.appendChild(me._pano_next);
 		me.divSkin.appendChild(me._button_next_previous);
-		el=me._map_1=document.createElement('div');
-		el.ggFilter = '';
-		el.ggFilteredIds = [];
-		el.ggMapNotLoaded = true;
-		el.ggMapId = '2nd_floorPlan';
-		el.ggId="Map 1";
+		el=me._dropdown_menu=document.createElement('div');
+		el.ggId="Dropdown Menu";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_map ";
-		el.ggType='map';
+		el.className="ggskin ggskin_container ";
+		el.ggType='container';
 		hs ='';
-		hs+='border : 0px solid #000000;';
-		hs+='cursor : default;';
-		hs+='height : 157px;';
-		hs+='overflow : hidden;';
+		hs+='height : 142px;';
+		hs+='left : 20px;';
 		hs+='position : absolute;';
-		hs+='right : 20px;';
 		hs+='top : 20px;';
 		hs+='visibility : inherit;';
-		hs+='width : 300px;';
-		hs+='pointer-events:auto;';
+		hs+='width : 190px;';
+		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._map_1.ggIsActive=function() {
+		me._dropdown_menu.ggIsActive=function() {
 			return false;
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._map_1.ggUpdateConditionResize=function () {
-			var mapDetails = player.getMapDetails(me._map_1.ggMapId);
-			if (mapDetails.hasOwnProperty('title')) {
-				me._map_1.ggCalculateFloorplanSize(mapDetails);
-				me._map_1.ggShowSimpleFloorplan(mapDetails);
-				me._map_1.ggPlaceMarkersOnSimpleFloorplan();
+		me._dropdown_menu.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._dropdown_background=document.createElement('div');
+		el.ggId="Dropdown Background";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+='background : rgba(128,128,128,0.784314);';
+		hs+='border : 1px solid #005500;';
+		hs+='cursor : default;';
+		hs+='height : 119px;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 23px;';
+		hs+='visibility : hidden;';
+		hs+='width : 190px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._dropdown_background.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
 			}
-			if (me._map_1.ggRadar) me._map_1.ggRadar.update();
+			return false;
 		}
-		me._map_1.ggUpdatePosition=function (useTransition) {
-			me._map_1.ggUpdateConditionResize();
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
 		}
-		me.divSkin.appendChild(me._map_1);
+		me._dropdown_background.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._dropdown_scrollarea=document.createElement('div');
+		els=me._dropdown_scrollarea__content=document.createElement('div');
+		els.className='ggskin ggskin_subelement ggskin_scrollarea';
+		el.ggContent=els;
+		el.appendChild(els);
+		el.ggHorScrollVisible = false;
+		el.ggVertScrollVisible = false;
+		el.ggContentLeftOffset = 0;
+		el.ggContentTopOffset = 0;
+		el.ggContentWidth = 0;
+		el.ggContentHeight = 0;
+		el.ggDragInertiaX = 0;
+		el.ggDragInertiaY = 0;
+		el.ggVPercentVisible = 1.0;
+		el.ggHPercentVisible = 1.0;
+		el.ggIsDragging = false;
+		hs ='';
+		hs+='height : 23px;';
+		hs+='left : 0px;';
+		hs+='overflow-x : visible;';
+		hs+='overflow-y : visible;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='width : 170px;';
+		hs+="";
+		els.setAttribute('style',hs);
+		me._dropdown_scrollarea.ggScrollByX = function(diffX) {
+			if(!me._dropdown_scrollarea.ggHorScrollVisible || diffX == 0 || me._dropdown_scrollarea.ggHPercentVisible >= 1.0) return;
+			me._dropdown_scrollarea.ggScrollPosX = (me._dropdown_scrollarea__horScrollFg.offsetLeft + diffX);
+			me._dropdown_scrollarea.ggScrollPosX = Math.max(me._dropdown_scrollarea.ggScrollPosX, 0);
+			me._dropdown_scrollarea.ggScrollPosX = Math.min(me._dropdown_scrollarea.ggScrollPosX, me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
+			me._dropdown_scrollarea__horScrollFg.style.left = me._dropdown_scrollarea.ggScrollPosX + 'px';
+			let percentScrolled = me._dropdown_scrollarea.ggScrollPosX / (me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
+			me._dropdown_scrollarea__content.style.left = -(Math.round((me._dropdown_scrollarea.ggContentWidth * (1.0 - me._dropdown_scrollarea.ggHPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentLeftOffset + 'px';
+			me._dropdown_scrollarea.ggScrollPosXPercent = (me._dropdown_scrollarea__horScrollFg.offsetLeft / me._dropdown_scrollarea__horScrollBg.offsetWidth);
+		}
+		me._dropdown_scrollarea.ggScrollByXSmooth = function(diffX) {
+			if(!me._dropdown_scrollarea.ggHorScrollVisible || diffX == 0 || me._dropdown_scrollarea.ggHPercentVisible >= 1.0) return;
+			var scrollPerInterval = diffX / 25;
+			var scrollCurrX = 0;
+			var id = setInterval(function() {
+				scrollCurrX += scrollPerInterval;
+				me._dropdown_scrollarea.ggScrollPosX += scrollPerInterval;
+				if (diffX > 0 && (scrollCurrX >= diffX || me._dropdown_scrollarea.ggScrollPosX >= me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth)) {
+					me._dropdown_scrollarea.ggScrollPosX = Math.min(me._dropdown_scrollarea.ggScrollPosX, me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
+					clearInterval(id);
+				}
+				if (diffX < 0 && (scrollCurrX <= diffX || me._dropdown_scrollarea.ggScrollPosX <= 0)) {
+					me._dropdown_scrollarea.ggScrollPosX = Math.max(me._dropdown_scrollarea.ggScrollPosX, 0);
+					clearInterval(id);
+				}
+			me._dropdown_scrollarea__horScrollFg.style.left = me._dropdown_scrollarea.ggScrollPosX + 'px';
+			let percentScrolled = me._dropdown_scrollarea.ggScrollPosX / (me._dropdown_scrollarea__horScrollBg.offsetWidth - me._dropdown_scrollarea__horScrollFg.offsetWidth);
+			me._dropdown_scrollarea__content.style.left = -(Math.round((me._dropdown_scrollarea.ggContentWidth * (1.0 - me._dropdown_scrollarea.ggHPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentLeftOffset + 'px';
+			me._dropdown_scrollarea.ggScrollPosXPercent = (me._dropdown_scrollarea__horScrollFg.offsetLeft / me._dropdown_scrollarea__horScrollBg.offsetWidth);
+			}, 10);
+		}
+		me._dropdown_scrollarea.ggScrollByY = function(diffY) {
+			if(!me._dropdown_scrollarea.ggVertScrollVisible || diffY == 0 || me._dropdown_scrollarea.ggVPercentVisible >= 1.0) return;
+			me._dropdown_scrollarea.ggScrollPosY = (me._dropdown_scrollarea__vertScrollFg.offsetTop + diffY);
+			me._dropdown_scrollarea.ggScrollPosY = Math.max(me._dropdown_scrollarea.ggScrollPosY, 0);
+			me._dropdown_scrollarea.ggScrollPosY = Math.min(me._dropdown_scrollarea.ggScrollPosY, me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
+			me._dropdown_scrollarea__vertScrollFg.style.top = me._dropdown_scrollarea.ggScrollPosY + 'px';
+			let percentScrolled = me._dropdown_scrollarea.ggScrollPosY / (me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
+			me._dropdown_scrollarea__content.style.top = -(Math.round((me._dropdown_scrollarea.ggContentHeight * (1.0 - me._dropdown_scrollarea.ggVPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentTopOffset + 'px';
+			me._dropdown_scrollarea.ggScrollPosYPercent = (me._dropdown_scrollarea__vertScrollFg.offsetTop / me._dropdown_scrollarea__vertScrollBg.offsetHeight);
+		}
+		me._dropdown_scrollarea.ggScrollByYSmooth = function(diffY) {
+			if(!me._dropdown_scrollarea.ggVertScrollVisible || diffY == 0 || me._dropdown_scrollarea.ggVPercentVisible >= 1.0) return;
+			var scrollPerInterval = diffY / 25;
+			var scrollCurrY = 0;
+			var id = setInterval(function() {
+				scrollCurrY += scrollPerInterval;
+				me._dropdown_scrollarea.ggScrollPosY += scrollPerInterval;
+				if (diffY > 0 && (scrollCurrY >= diffY || me._dropdown_scrollarea.ggScrollPosY >= me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight)) {
+					me._dropdown_scrollarea.ggScrollPosY = Math.min(me._dropdown_scrollarea.ggScrollPosY, me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
+					clearInterval(id);
+				}
+				if (diffY < 0 && (scrollCurrY <= diffY || me._dropdown_scrollarea.ggScrollPosY <= 0)) {
+					me._dropdown_scrollarea.ggScrollPosY = Math.max(me._dropdown_scrollarea.ggScrollPosY, 0);
+					clearInterval(id);
+				}
+			me._dropdown_scrollarea__vertScrollFg.style.top = me._dropdown_scrollarea.ggScrollPosY + 'px';
+			let percentScrolled = me._dropdown_scrollarea.ggScrollPosY / (me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
+			me._dropdown_scrollarea__content.style.top = -(Math.round((me._dropdown_scrollarea.ggContentHeight * (1.0 - me._dropdown_scrollarea.ggVPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentTopOffset + 'px';
+			me._dropdown_scrollarea.ggScrollPosYPercent = (me._dropdown_scrollarea__vertScrollFg.offsetTop / me._dropdown_scrollarea__vertScrollBg.offsetHeight);
+			}, 10);
+		}
+		me._dropdown_scrollarea.ggScrollIntoView = function(posX, posY, width, height) {
+			if (me._dropdown_scrollarea.ggHorScrollVisible) {
+				if (posX < 0) {
+					var diffX = Math.floor(posX * me._dropdown_scrollarea.ggHPercentVisible);
+					me._dropdown_scrollarea.ggScrollByXSmooth(diffX);
+				} else if (posX + width > me._dropdown_scrollarea.clientWidth - (me._dropdown_scrollarea.ggVertScrollVisible ? 15 : 0)) {
+					var diffX = Math.ceil(((posX + width) - (me._dropdown_scrollarea.clientWidth - (me._dropdown_scrollarea.ggVertScrollVisible ? 15 : 0))) * me._dropdown_scrollarea.ggHPercentVisible);
+					me._dropdown_scrollarea.ggScrollByXSmooth(diffX);
+				}
+			}
+			if (me._dropdown_scrollarea.ggVertScrollVisible) {
+				if (posY < 0) {
+					var diffY = Math.floor(posY * me._dropdown_scrollarea.ggVPercentVisible);
+					me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
+				} else if (posY + height > me._dropdown_scrollarea.clientHeight - (me._dropdown_scrollarea.ggHorScrollVisible ? 15 : 0)) {
+					var diffY = Math.ceil(((posY + height) - (me._dropdown_scrollarea.clientHeight - (me._dropdown_scrollarea.ggHorScrollVisible ? 15 : 0))) * me._dropdown_scrollarea.ggVPercentVisible);
+					me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
+				}
+			}
+		}
+		me._dropdown_scrollarea__content.mousetouchend = e => {
+			let inertiaInterval = setInterval(function() {
+				me._dropdown_scrollarea.ggDragInertiaX *= 0.65;
+				me._dropdown_scrollarea.ggDragInertiaY *= 0.65;
+				me._dropdown_scrollarea.ggScrollByX(me._dropdown_scrollarea.ggDragInertiaX);
+				me._dropdown_scrollarea.ggScrollByY(me._dropdown_scrollarea.ggDragInertiaY);
+				if (Math.abs(me._dropdown_scrollarea.ggDragInertiaX) < 1.0 && Math.abs(me._dropdown_scrollarea.ggDragInertiaY) < 1.0) {
+					clearInterval(inertiaInterval);
+				}
+				}, 50);
+			me._dropdown_scrollarea__content.onmouseup = null;
+			me._dropdown_scrollarea__content.onmousemove = null;
+			me._dropdown_scrollarea__content.ontouchend = null;
+			me._dropdown_scrollarea__content.ontouchmove = null;
+			me._dropdown_scrollarea__content.onpointerup = null;
+			me._dropdown_scrollarea__content.onpointermove = null;
+			setTimeout(function() { me._dropdown_scrollarea.ggIsDragging = false; }, 100);
+		}
+		me._dropdown_scrollarea__content.mousetouchmove = e => {
+			e = e || window.event;
+			e.preventDefault();
+			var t = e.touches;
+			var eventX = t ? t[0].clientX : e.clientX;
+			var eventY = t ? t[0].clientY : e.clientY;
+			if (Math.abs(eventX - me._dropdown_scrollarea.ggDragStartX) > 10 || Math.abs(eventY - me._dropdown_scrollarea.ggDragStartY) > 10) me._dropdown_scrollarea.ggIsDragging = true;
+			var diffX = (eventX - me._dropdown_scrollarea.ggDragLastX) * me._dropdown_scrollarea.ggHPercentVisible;
+			var diffY = (eventY - me._dropdown_scrollarea.ggDragLastY) * me._dropdown_scrollarea.ggVPercentVisible;
+			me._dropdown_scrollarea.ggDragInertiaX = -diffX;
+			me._dropdown_scrollarea.ggDragInertiaY = -diffY;
+			me._dropdown_scrollarea.ggDragLastX = eventX;
+			me._dropdown_scrollarea.ggDragLastY = eventY;
+			me._dropdown_scrollarea.ggScrollByX(-diffX);
+			me._dropdown_scrollarea.ggScrollByY(-diffY);
+		}
+		me._dropdown_scrollarea__content.mousetouchstart = e => {
+			e = e || window.event;
+			var t = e.touches;
+			me._dropdown_scrollarea.ggDragLastX = me._dropdown_scrollarea.ggDragStartX = t ? t[0].clientX : e.clientX;
+			me._dropdown_scrollarea.ggDragLastY = me._dropdown_scrollarea.ggDragStartY = t ? t[0].clientY : e.clientY;
+			me._dropdown_scrollarea__content.onmouseup = me._dropdown_scrollarea__content.mousetouchend;
+			me._dropdown_scrollarea__content.ontouchend = me._dropdown_scrollarea__content.mousetouchend;
+			me._dropdown_scrollarea__content.onmousemove = me._dropdown_scrollarea__content.mousetouchmove;
+			me._dropdown_scrollarea__content.ontouchmove = me._dropdown_scrollarea__content.mousetouchmove;
+			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
+				me._dropdown_scrollarea__content.onpointerup = me._dropdown_scrollarea__content.ontouchend;
+				me._dropdown_scrollarea__content.onpointermove = me._dropdown_scrollarea__content.ontouchmove;
+			}
+		}
+		els.onmousedown = me._dropdown_scrollarea__content.mousetouchstart;
+		els.ontouchstart = me._dropdown_scrollarea__content.mousetouchstart;
+		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
+			els.onpointerdown = me._dropdown_scrollarea__content.mousetouchstart;
+		}
+		elVertScrollBg = me._dropdown_scrollarea__vertScrollBg = document.createElement('div');
+		el.appendChild(elVertScrollBg);
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 115px; background-color: rgba(128,128,128,0); pointer-events: auto;');
+		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
+		elVertScrollFg = me._dropdown_scrollarea__vertScrollFg = document.createElement('div');
+		elVertScrollBg.appendChild(elVertScrollFg);
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 115px; background-color: rgba(255,255,255,1); pointer-events: auto;');
+		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
+		me._dropdown_scrollarea.ggScrollPosY = 0;
+		me._dropdown_scrollarea.ggScrollPosYPercent = 0.0;
+		elVertScrollFg.onmousedown = function(e) {
+			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) return;
+			e = e || window.event;
+			e.preventDefault();
+			e.stopPropagation();
+			me._dropdown_scrollarea.ggDragLastY = e.clientY;
+			document.onmouseup = function() {
+				let inertiaInterval = setInterval(function() {
+					me._dropdown_scrollarea.ggDragInertiaY *= 0.65;
+					me._dropdown_scrollarea.ggScrollByY(me._dropdown_scrollarea.ggDragInertiaY);
+					if (Math.abs(me._dropdown_scrollarea.ggDragInertiaY) < 1.0) {
+						clearInterval(inertiaInterval);
+					}
+					}, 50);
+				document.onmouseup = null;
+				document.onmousemove = null;
+			}
+			document.onmousemove = function(e) {
+				e = e || window.event;
+				e.preventDefault();
+				var diffY = e.clientY - me._dropdown_scrollarea.ggDragLastY;
+				me._dropdown_scrollarea.ggDragInertiaY = diffY;
+				me._dropdown_scrollarea.ggDragLastY = e.clientY;
+				me._dropdown_scrollarea.ggScrollByY(diffY);
+			}
+		}
+		elVertScrollFg.ontouchstart = function(e) {
+			e = e || window.event;
+			e.preventDefault();
+			e.stopPropagation();
+			var t = e.touches;
+			me._dropdown_scrollarea.ggDragLastY = t ? t[0].clientY : e.clientY;
+			document.ontouchend = function() {
+				let inertiaInterval = setInterval(function() {
+					me._dropdown_scrollarea.ggDragInertiaY *= 0.65;
+					me._dropdown_scrollarea.ggScrollByY(me._dropdown_scrollarea.ggDragInertiaY);
+					if (Math.abs(me._dropdown_scrollarea.ggDragInertiaY) < 1.0) {
+						clearInterval(inertiaInterval);
+					}
+					}, 50);
+				document.ontouchend = null;
+				document.ontouchmove = null;
+				document.onpointerup = null;
+				document.onpointermove = null;
+			}
+			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
+				document.onpointerup = document.ontouchend;
+			}
+			document.ontouchmove = function(e) {
+				e = e || window.event;
+				e.preventDefault();
+				var t = e.touches;
+				var diffY = (t ? t[0].clientY : e.clientY) - me._dropdown_scrollarea.ggDragLastY;
+				me._dropdown_scrollarea.ggDragInertiaY = diffY;
+				me._dropdown_scrollarea.ggDragLastY = t ? t[0].clientY : e.clientY;
+				me._dropdown_scrollarea.ggScrollByY(diffY);
+			}
+			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
+				document.onpointermove = document.ontouchmove;
+			}
+		}
+		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
+			elVertScrollFg.onpointerdown = elVertScrollFg.ontouchstart;
+		}
+		elVertScrollBg.onmousedown = function(e) {
+			e = e || window.event;
+			e.preventDefault();
+			var diffY = me._dropdown_scrollarea.ggScrollHeight;
+			if (e.offsetY < me._dropdown_scrollarea.ggScrollPosY) {
+				diffY = diffY * -1;
+			}
+			me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
+		}
+		elVertScrollBg.ontouchstart = function(e) {
+			e = e || window.event;
+			e.preventDefault();
+			e.stopPropagation();
+			var t = e.touches;
+			var rect = me._dropdown_scrollarea__vertScrollBg.getBoundingClientRect();
+			var diffY = me._dropdown_scrollarea.ggScrollHeight;
+			if ((t[0].clientY - rect.top) < me._dropdown_scrollarea.ggScrollPosY) {
+				diffY = diffY * -1;
+			}
+			me._dropdown_scrollarea.ggScrollByYSmooth(diffY);
+		}
+		el.addEventListener('wheel', function(e) {
+			e.preventDefault();
+			var wheelDelta = Math.sign(e.deltaY);
+			me._dropdown_scrollarea.ggScrollByYSmooth(30 * me._dropdown_scrollarea.ggVPercentVisible * wheelDelta);
+		});
+		elCornerBg = me._dropdown_scrollarea__cornerBg = document.createElement('div');
+		el.appendChild(elCornerBg);
+		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 15px; height: 15px; background-color: rgba(255,255,255,1);');
+		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
+		el.ggId="Dropdown Scrollarea";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_scrollarea ";
+		el.ggType='scrollarea';
+		hs ='';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : pointer;';
+		hs+='height : 115px;';
+		hs+='left : 0px;';
+		hs+='overflow : hidden;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 187px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._dropdown_scrollarea.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_scrollarea.ggUpdatePosition=function (useTransition) {
+			{
+				var horScrollWasVisible = this.ggHorScrollVisible;
+				var vertScrollWasVisible = this.ggVertScrollVisible;
+				this.ggContent.style.left = '0px';
+				this.ggContent.style.top = '0px';
+				this.ggContentLeftOffset = 0;
+				this.ggContentTopOffset = 0;
+				var offsetWidthWithScale = this.getBoundingClientRect().width;
+				var offsetHeightWithScale = this.getBoundingClientRect().height;
+				var domRectContent = this.ggContent.getBoundingClientRect();
+				var minX = 0;
+				var minY = 0;
+				var maxX = 0;
+				var maxY = 0;
+				var stack=[];
+				stack.push(this.ggContent);
+				while(stack.length>0) {
+					var e=stack.pop();
+					if (e!=this.ggContent && e.getBoundingClientRect && e.style['display']!='none' && (e.offsetWidth != 0 || e.offsetHeight != 0)) {
+						var domRectChild = e.getBoundingClientRect();
+						var diffX = domRectChild.left - domRectContent.left;
+						minX = Math.min(minX, diffX);
+						maxX = Math.max(maxX, diffX + domRectChild.width);
+						var diffY = domRectChild.top - domRectContent.top;
+						minY = Math.min(minY, diffY);
+						maxY = Math.max(maxY, diffY + domRectChild.height);
+					}
+					if (e.hasChildNodes() && e.style['display']!='none' && e.style['overflow']!='hidden') {
+						for(var i=0;i<e.childNodes.length;i++) {
+							stack.push(e.childNodes[i]);
+						}
+					}
+				}
+				if (minX < 0) this.ggContentLeftOffset = -minX;
+				if (minY < 0) this.ggContentTopOffset = -minY;
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
+				this.ggContent.style.top = this.ggContentTopOffset + 'px';
+				var contentWidth = maxX - minX;
+				this.ggContent.style.width = contentWidth + 'px';
+				var contentHeight = maxY - minY;
+				this.ggContent.style.height = contentHeight + 'px';
+			var scaleX = this.getBoundingClientRect().width / this.offsetWidth;
+				this.ggContentWidth = contentWidth / scaleX;
+			var scaleY = this.getBoundingClientRect().height / this.offsetHeight;
+				this.ggContentHeight = contentHeight / scaleY;
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
+				this.ggContent.style.marginLeft = '0px';
+				this.ggContent.style.top = -(Math.round(me._dropdown_scrollarea.ggScrollPosY / me._dropdown_scrollarea.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
+				this.ggContent.style.marginTop = '0px';
+				if ((me._dropdown_scrollarea.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._dropdown_scrollarea.ggHorScrollVisible && contentHeight > this.clientHeight)) {
+					me._dropdown_scrollarea__vertScrollBg.style.visibility = 'inherit';
+					me._dropdown_scrollarea__vertScrollFg.style.visibility = 'inherit';
+					me._dropdown_scrollarea.ggVertScrollVisible = true;
+				} else {
+					me._dropdown_scrollarea__vertScrollBg.style.visibility = 'hidden';
+					me._dropdown_scrollarea__vertScrollFg.style.visibility = 'hidden';
+					me._dropdown_scrollarea.ggVertScrollVisible = false;
+				}
+				if(me._dropdown_scrollarea.ggVertScrollVisible) {
+					me._dropdown_scrollarea.ggAvailableWidth = me._dropdown_scrollarea.clientWidth - 15;
+					if (me._dropdown_scrollarea.ggHorScrollVisible) {
+						me._dropdown_scrollarea.ggAvailableHeight = me._dropdown_scrollarea.clientHeight - 15;
+						me._dropdown_scrollarea.ggAvailableHeightWithScale = me._dropdown_scrollarea.getBoundingClientRect().height - me._dropdown_scrollarea__vertScrollBg.getBoundingClientRect().width;
+						me._dropdown_scrollarea__cornerBg.style.visibility = 'inherit';
+					} else {
+						me._dropdown_scrollarea.ggAvailableHeight = me._dropdown_scrollarea.clientHeight;
+						me._dropdown_scrollarea.ggAvailableHeightWithScale = me._dropdown_scrollarea.getBoundingClientRect().height;
+						me._dropdown_scrollarea__cornerBg.style.visibility = 'hidden';
+					}
+					me._dropdown_scrollarea__vertScrollBg.style.height = me._dropdown_scrollarea.ggAvailableHeight + 'px';
+					me._dropdown_scrollarea.ggVPercentVisible = contentHeight != 0 ? me._dropdown_scrollarea.ggAvailableHeightWithScale / contentHeight : 0.0;
+					if (me._dropdown_scrollarea.ggVPercentVisible > 1.0) me._dropdown_scrollarea.ggVPercentVisible = 1.0;
+					me._dropdown_scrollarea.ggScrollHeight =  Math.round(me._dropdown_scrollarea__vertScrollBg.offsetHeight * me._dropdown_scrollarea.ggVPercentVisible);
+					me._dropdown_scrollarea__vertScrollFg.style.height = me._dropdown_scrollarea.ggScrollHeight + 'px';
+					me._dropdown_scrollarea.ggScrollPosY = me._dropdown_scrollarea.ggScrollPosYPercent * me._dropdown_scrollarea.ggAvailableHeight;
+					me._dropdown_scrollarea.ggScrollPosY = Math.min(me._dropdown_scrollarea.ggScrollPosY, me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
+					me._dropdown_scrollarea__vertScrollFg.style.top = me._dropdown_scrollarea.ggScrollPosY + 'px';
+					if (me._dropdown_scrollarea.ggVPercentVisible < 1.0) {
+						let percentScrolled = me._dropdown_scrollarea.ggScrollPosY / (me._dropdown_scrollarea__vertScrollBg.offsetHeight - me._dropdown_scrollarea__vertScrollFg.offsetHeight);
+						me._dropdown_scrollarea__content.style.top = -(Math.round((me._dropdown_scrollarea.ggContentHeight * (1.0 - me._dropdown_scrollarea.ggVPercentVisible)) * percentScrolled)) + me._dropdown_scrollarea.ggContentTopOffset + 'px';
+					}
+				} else {
+					me._dropdown_scrollarea.ggAvailableWidth = me._dropdown_scrollarea.clientWidth;
+					me._dropdown_scrollarea.ggScrollPosY = 0;
+					me._dropdown_scrollarea.ggScrollPosYPercent = 0.0;
+					me._dropdown_scrollarea__content.style.top = this.ggContentTopOffset + 'px';
+					me._dropdown_scrollarea__cornerBg.style.visibility = 'hidden';
+				}
+				if(horScrollWasVisible != me._dropdown_scrollarea.ggHorScrollVisible || vertScrollWasVisible != me._dropdown_scrollarea.ggVertScrollVisible) {
+					skin.updateSize(me._dropdown_scrollarea);
+					me._dropdown_scrollarea.ggUpdatePosition();
+				}
+			}
+		}
+		el=me._dropdown_cloner=document.createElement('div');
+		el.isDragging = function() {
+			let scrollerParent = me._dropdown_cloner;
+			while ((scrollerParent = scrollerParent.parentNode) != null) {
+				if (scrollerParent.hasOwnProperty('ggIsDragging') && scrollerParent.ggIsDragging == true) return true;
+			}
+			return false;
+		}
+		el.ggNumRepeat = 1;
+		el.ggNumRows = 0;
+		el.ggNumCols = 0;
+		el.ggCloneOffset = 0;
+		el.ggCloneOffsetChanged = false;
+		el.ggWidth = 169;
+		el.ggHeight = 24;
+		el.ggUpdating = false;
+		el.ggFilter = [];
+		el.ggFilterHsSkinId = '';
+		el.ggInstances = [];
+		el.ggNumFilterPassed = 0;
+		el.getFilteredNodes = function(tourNodes, filter) {
+			var filteredNodes = [];
+			for (var i = 0; i < tourNodes.length; i++) {
+				var nodeId = tourNodes[i];
+				var passed = true;
+				var nodeData = player.getNodeUserdata(nodeId);
+				if (filter.length > 0) {
+					for (var j=0; j < filter.length; j++) {
+						if (nodeData['tags'].indexOf(filter[j].trim()) == -1) passed = false;
+					}
+				}
+				if (passed) {
+					filteredNodes.push(nodeId);
+				}
+			}
+			return filteredNodes;
+		}
+		el.ggUpdate = function(filter) {
+			if(me._dropdown_cloner.ggUpdating == true) return;
+			me._dropdown_cloner.ggUpdating = true;
+			var el=me._dropdown_cloner;
+			var curNumCols = 0;
+			curNumCols = me._dropdown_cloner.ggNumRepeat;
+			if (curNumCols < 1) curNumCols = 1;
+			if (typeof filter=='object') {
+				el.ggFilter = filter;
+			} else {
+				filter = el.ggFilter;
+			};
+			if (me.ggTag) filter.push(me.ggTag);
+			filter=filter.sort();
+			if ((el.ggNumCols == curNumCols) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) )) {
+				me._dropdown_cloner.ggUpdating = false;
+				return;
+			} else {
+				el.ggNumRows = 1;
+				el.ggNumCols = curNumCols;
+			var centerOffsetHor = 0;
+			var centerOffsetVert = 0;
+				me._dropdown_cloner.ggCloneOffsetChanged = false;
+			}
+			el.ggCurrentFilter = filter;
+			el.ggInstances = [];
+			if (el.hasChildNodes() == true) {
+				while (el.firstChild) {
+					el.removeChild(el.firstChild);
+				}
+			}
+			var tourNodes = player.getNodeIds();
+			var row = 0;
+			var column = 0;
+			var currentIndex = 0;
+			var keepCloning = true;
+			tourNodes = me._dropdown_cloner.getFilteredNodes(tourNodes, filter);
+			me._dropdown_cloner.ggNumFilterPassed = tourNodes.length;
+			for (var i = 0; i < tourNodes.length; i++) {
+				var nodeId = tourNodes[i];
+				var nodeData = player.getNodeUserdata(nodeId);
+				if (!keepCloning || i < me._dropdown_cloner.ggCloneOffset) continue;
+				var parameter={};
+				parameter.top = centerOffsetVert + (row * me._dropdown_cloner.ggHeight) + 'px';
+				parameter.left = centerOffsetHor + (column * me._dropdown_cloner.ggWidth) + 'px';
+				parameter.width=me._dropdown_cloner.ggWidth + 'px';
+				parameter.height=me._dropdown_cloner.ggHeight + 'px';
+				parameter.index=currentIndex;
+				parameter.title=nodeData['title'];
+				var inst = new SkinCloner_dropdown_cloner_Class(nodeId, me, el, parameter);
+				currentIndex++;
+				el.ggInstances.push(inst);
+				el.appendChild(inst.__div);
+				inst.__div.ggObj=inst;
+				skin.updateSize(inst.__div);
+				column++;
+				if (column >= el.ggNumCols) {
+					column = 0;
+					row++;
+					el.ggNumRows++;
+				}
+			}
+			me._dropdown_cloner.ggNodeCount = me._dropdown_cloner.ggNumFilterPassed;
+			me._dropdown_cloner.ggUpdating = false;
+			player.triggerEvent('clonerchanged');
+			if (me._dropdown_cloner.parentNode && me._dropdown_cloner.parentNode.classList.contains('ggskin_subelement') && me._dropdown_cloner.parentNode.parentNode.classList.contains('ggskin_scrollarea')) me._dropdown_cloner.parentNode.parentNode.ggUpdatePosition();
+		}
+		el.ggFilter = [];
+		el.ggId="Dropdown Cloner";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_cloner ";
+		el.ggType='cloner';
+		hs ='';
+		hs+='height : 24px;';
+		hs+='left : 0px;';
+		hs+='overflow : visible;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 169px;';
+		hs+='pointer-events:none;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._dropdown_cloner.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_cloner.ggUpdateConditionNodeChange=function () {
+			var cnode=player.getCurrentNode();
+			for(var i=0; i<me._dropdown_cloner.childNodes.length; i++) {
+				var child=me._dropdown_cloner.childNodes[i];
+				if (child.ggObj && child.ggObj.ggNodeId==cnode) {
+			        var childOffX = child.offsetLeft;
+			        var childOffY = child.offsetTop;
+					var p = child.parentElement;
+			        while (p != null && p!==this.divSkin) {
+						if (p.ggType && p.ggType == 'scrollarea') {
+							p.ggScrollIntoView(childOffX, childOffY, child.clientWidth, child.clientHeight);
+						}
+						childOffX += p.offsetLeft;
+						childOffY += p.offsetTop;
+						p = p.parentElement;
+					}
+				}
+			}
+		}
+		me._dropdown_cloner.ggUpdatePosition=function (useTransition) {
+			me._dropdown_cloner.ggUpdate();
+		}
+		me._dropdown_scrollarea__content.appendChild(me._dropdown_cloner);
+		me._dropdown_background.appendChild(me._dropdown_scrollarea);
+		me._dropdown_menu.appendChild(me._dropdown_background);
+		el=me._dropdown_menu_title_background=document.createElement('div');
+		el.ggId="Dropdown Menu Title Background";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+='background : #ffffff;';
+		hs+='border : 1px solid #005500;';
+		hs+='cursor : pointer;';
+		hs+='height : 20px;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 190px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._dropdown_menu_title_background.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_menu_title_background.logicBlock_backgroundcolor = function() {
+			var newLogicStateBackgroundColor;
+			if (
+				((me.elementMouseOver['dropdown_menu_title_background'] == true))
+			)
+			{
+				newLogicStateBackgroundColor = 0;
+			}
+			else {
+				newLogicStateBackgroundColor = -1;
+			}
+			if (me._dropdown_menu_title_background.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
+				me._dropdown_menu_title_background.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
+				me._dropdown_menu_title_background.style.transition='background-color 0s';
+				if (me._dropdown_menu_title_background.ggCurrentLogicStateBackgroundColor == 0) {
+					me._dropdown_menu_title_background.style.backgroundColor="rgba(239,239,239,1)";
+				}
+				else {
+					me._dropdown_menu_title_background.style.backgroundColor="rgba(255,255,255,1)";
+				}
+			}
+		}
 		me._dropdown_menu_title_background.logicBlock_backgroundcolor();
-		me._booking.logicBlock_visible();
-		me._tt_thumbnail_open.logicBlock_position();
-		me._tt_thumbnail_open.logicBlock_visible();
-		me._tt_thumbnail_open.logicBlock_text();
-		me._thumbnail_menu.logicBlock_position();
-		me._thumbnail_menu.logicBlock_alpha();
-		me._button_image_normalscreen.logicBlock_visible();
-		me._button_image_fullscreen.logicBlock_visible();
-		me._tt_fullscreen.logicBlock_position();
-		me._tt_fullscreen.logicBlock_visible();
-		me._tt_fullscreen.logicBlock_text();
-		me._tt_zoomout.logicBlock_position();
-		me._tt_zoomout.logicBlock_visible();
-		me._tt_zoomin.logicBlock_position();
-		me._tt_zoomin.logicBlock_visible();
-		me._tt_pano_prev.logicBlock_position();
-		me._tt_pano_prev.logicBlock_visible();
-		me._tt_pano_next.logicBlock_position();
-		me._tt_pano_next.logicBlock_visible();
+		me._dropdown_menu_title_background.onclick=function (e) {
+			me._dropdown_background.ggVisible = !me._dropdown_background.ggVisible;
+			var flag=me._dropdown_background.ggVisible;
+			me._dropdown_background.style.transition='none';
+			me._dropdown_background.style.visibility=((flag)&&(Number(me._dropdown_background.style.opacity)>0||!me._dropdown_background.style.opacity))?'inherit':'hidden';
+			me._dropdown_open.ggVisible = !me._dropdown_open.ggVisible;
+			var flag=me._dropdown_open.ggVisible;
+			me._dropdown_open.style.transition='none';
+			me._dropdown_open.style.visibility=((flag)&&(Number(me._dropdown_open.style.opacity)>0||!me._dropdown_open.style.opacity))?'inherit':'hidden';
+			me._dropdown_close.ggVisible = !me._dropdown_close.ggVisible;
+			var flag=me._dropdown_close.ggVisible;
+			me._dropdown_close.style.transition='none';
+			me._dropdown_close.style.visibility=((flag)&&(Number(me._dropdown_close.style.opacity)>0||!me._dropdown_close.style.opacity))?'inherit':'hidden';
+		}
+		me._dropdown_menu_title_background.onmouseover=function (e) {
+			me.elementMouseOver['dropdown_menu_title_background']=true;
+			me._dropdown_menu_title_background.logicBlock_backgroundcolor();
+		}
+		me._dropdown_menu_title_background.onmouseout=function (e) {
+			me.elementMouseOver['dropdown_menu_title_background']=false;
+			me._dropdown_menu_title_background.logicBlock_backgroundcolor();
+		}
+		me._dropdown_menu_title_background.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._dropdown_menu_title=document.createElement('div');
+		els=me._dropdown_menu_title__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Dropdown Menu Title";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='border : 0px solid #000000;';
+		hs+='border-radius : 5px;';
+		hs+='color : rgba(0,0,0,1);';
+		hs+='cursor : default;';
+		hs+='height : 20px;';
+		hs+='left : 2px;';
+		hs+='position : absolute;';
+		hs+='top : 1px;';
+		hs+='visibility : inherit;';
+		hs+='width : 166px;';
+		hs+='pointer-events:none;';
+		hs+='font-weight: bold;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		hs ='';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='width: 100%;';
+		hs+='height: 100%;';
+		hs+='pointer-events: none;';
+		hs+='font-size: 12px;';
+		hs+='font-weight: bold;';
+		hs+='text-align: left;';
+		hs+='white-space: pre;';
+		hs+='padding: 1px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		me._dropdown_menu_title.ggUpdateText=function() {
+			var params = [];
+			params.push(String(player._(me.ggUserdata.title)));
+			var hs = player._("%1", params);
+			if (hs!=this.ggText) {
+				this.ggText=hs;
+				this.ggTextDiv.innerHTML=hs;
+				if (this.ggUpdatePosition) this.ggUpdatePosition();
+			}
+		}
+		me._dropdown_menu_title.ggUpdateText();
+		player.addListener('changenode', function() {
+			me._dropdown_menu_title.ggUpdateText();
+		});
+		el.appendChild(els);
+		me._dropdown_menu_title.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_menu_title.ggUpdatePosition=function (useTransition) {
+		}
+		me._dropdown_menu_title_background.appendChild(me._dropdown_menu_title);
+		el=me._dropdown_open=document.createElement('div');
+		els=me._dropdown_open__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgJy0vL1czQy8vRFREIFNWRyAxLjEvL0VOJyAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE1LjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyMCAyMCIgaWQ9IkxheWVyXzEiIHZlcn'+
+			'Npb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iMjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxwb2x5Z29uIHBvaW50cz0iMCwwIDEwLDIwIDIwLDAgIiBmaWxsLW9wYWNpdHk9IjEiIGZpbGw9IiMwMDAwMDAiLz4KPC9zdmc+Cg==';
+		me._dropdown_open__img.setAttribute('src',hs);
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="Dropdown Open";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='height : 10px;';
+		hs+='left : 175px;';
+		hs+='position : absolute;';
+		hs+='top : 5px;';
+		hs+='visibility : inherit;';
+		hs+='width : 10px;';
+		hs+='pointer-events:none;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._dropdown_open.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_open.ggUpdatePosition=function (useTransition) {
+		}
+		me._dropdown_menu_title_background.appendChild(me._dropdown_open);
+		el=me._dropdown_close=document.createElement('div');
+		els=me._dropdown_close__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgJy0vL1czQy8vRFREIFNWRyAxLjEvL0VOJyAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE1LjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyMCAyMCIgaWQ9IkxheWVyXzEiIHZlcn'+
+			'Npb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iMjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxwb2x5Z29uIHBvaW50cz0iMjAsMjAgMTAsMCAwLDIwICIgZmlsbC1vcGFjaXR5PSIxIiBmaWxsPSIjMDAwMDAwIi8+Cjwvc3ZnPgo=';
+		me._dropdown_close__img.setAttribute('src',hs);
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="Dropdown Close";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='height : 10px;';
+		hs+='left : 175px;';
+		hs+='position : absolute;';
+		hs+='top : 5px;';
+		hs+='visibility : hidden;';
+		hs+='width : 10px;';
+		hs+='pointer-events:none;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._dropdown_close.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_close.ggUpdatePosition=function (useTransition) {
+		}
+		me._dropdown_menu_title_background.appendChild(me._dropdown_close);
+		me._dropdown_menu.appendChild(me._dropdown_menu_title_background);
+		me.divSkin.appendChild(me._dropdown_menu);
 		me._map_1.ggMarkerInstances=[];
 		me._map_1.ggLastNodeId=null;
 		me._map_1.ggSimpleFloorplanMarkerArray=[];
@@ -3513,6 +3803,26 @@ function pano2vrSkin(player,base) {
 			me._map_1.ggMarkerInstances=[];
 			me._map_1.ggSimpleFloorplanMarkerArray=[];
 		}
+		me._booking.logicBlock_visible();
+		me._tt_thumbnail_open.logicBlock_position();
+		me._tt_thumbnail_open.logicBlock_visible();
+		me._tt_thumbnail_open.logicBlock_text();
+		me._thumbnail_menu.logicBlock_position();
+		me._thumbnail_menu.logicBlock_alpha();
+		me._button_image_normalscreen.logicBlock_visible();
+		me._button_image_fullscreen.logicBlock_visible();
+		me._tt_fullscreen.logicBlock_position();
+		me._tt_fullscreen.logicBlock_visible();
+		me._tt_fullscreen.logicBlock_text();
+		me._tt_zoomout.logicBlock_position();
+		me._tt_zoomout.logicBlock_visible();
+		me._tt_zoomin.logicBlock_position();
+		me._tt_zoomin.logicBlock_visible();
+		me._tt_pano_prev.logicBlock_position();
+		me._tt_pano_prev.logicBlock_visible();
+		me._tt_pano_next.logicBlock_position();
+		me._tt_pano_next.logicBlock_visible();
+		me._dropdown_menu_title_background.logicBlock_backgroundcolor();
 		player.addListener('activehotspotchanged', function(event) {
 			for(var i = 0; i < me._thumbnail_cloner.ggInstances.length; i++) {
 				me._thumbnail_cloner.ggInstances[i].ggEvent_activehotspotchanged(event);
@@ -3535,10 +3845,6 @@ function pano2vrSkin(player,base) {
 					hotspotTemplates['ht_node'][i].ggEvent_changenode();
 				}
 			}
-			me._dropdown_cloner.ggUpdateConditionNodeChange();
-			me._tt_thumbnail_open.logicBlock_text();
-			me._thumbnail_menu.logicBlock_alpha();
-			me._thumbnail_cloner.ggUpdateConditionNodeChange();
 			for (var i=0; i < me._map_1.ggMarkerInstances.length; i++) {
 				me._map_1.ggMarkerInstances[i].ggEvent_changenode();
 			}
@@ -3569,6 +3875,10 @@ function pano2vrSkin(player,base) {
 			}
 			me._map_1.ggLastNodeId = id;
 			me._map_1.ggRadar.update();
+			me._tt_thumbnail_open.logicBlock_text();
+			me._thumbnail_menu.logicBlock_alpha();
+			me._thumbnail_cloner.ggUpdateConditionNodeChange();
+			me._dropdown_cloner.ggUpdateConditionNodeChange();
 		});
 		player.addListener('changevisitednodes', function(event) {
 			for(var i = 0; i < me._dropdown_cloner.ggInstances.length; i++) {
@@ -3592,7 +3902,9 @@ function pano2vrSkin(player,base) {
 					hotspotTemplates['ht_node'][i].ggEvent_configloaded();
 				}
 			}
-			me._dropdown_scrollarea.ggUpdatePosition();
+			me._map_1.ggClearMap();
+			me._map_1.ggInitMap(false);
+			me._map_1.ggInitMapMarkers(true);
 			me._tt_thumbnail_open.logicBlock_position();
 			me._tt_thumbnail_open.logicBlock_text();
 			me._thumbnail_menu.ggUpdatePosition();
@@ -3603,9 +3915,7 @@ function pano2vrSkin(player,base) {
 			me._tt_zoomin.logicBlock_position();
 			me._tt_pano_prev.logicBlock_position();
 			me._tt_pano_next.logicBlock_position();
-			me._map_1.ggClearMap();
-			me._map_1.ggInitMap(false);
-			me._map_1.ggInitMapMarkers(true);
+			me._dropdown_scrollarea.ggUpdatePosition();
 		});
 		player.addListener('fullscreenenter', function(event) {
 			me._button_image_normalscreen.logicBlock_visible();
@@ -3646,8 +3956,8 @@ function pano2vrSkin(player,base) {
 			me._thumbnail_menu.logicBlock_alpha();
 		});
 		player.addListener('viewerinit', function(event) {
-			me._dropdown_cloner.ggUpdate();
 			me._thumbnail_cloner.ggUpdate();
+			me._dropdown_cloner.ggUpdate();
 		});
 	};
 	function SkinCloner_dropdown_cloner_Class(nodeId, parentScope, ggParent, parameter) {
