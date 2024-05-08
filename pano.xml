@@ -25,7 +25,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
     <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <control dblclickfullscreen="0" zoomcentercursor="0" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
   </panorama>
   <panorama id="node11">
     <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3690" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3690" levelingpitch="0">
@@ -53,7 +53,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
     <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <control dblclickfullscreen="0" zoomcentercursor="0" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
   </panorama>
   <panorama id="node9">
     <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3689" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3689" levelingpitch="0">
@@ -81,7 +81,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
     <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <control dblclickfullscreen="0" zoomcentercursor="0" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
   </panorama>
   <panorama id="node6">
     <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3686" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3686" levelingpitch="0">
@@ -109,7 +109,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
     <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <control dblclickfullscreen="0" zoomcentercursor="0" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
   </panorama>
   <panorama id="node7">
     <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3687" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3687" levelingpitch="0">
@@ -137,7 +137,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
     <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <control dblclickfullscreen="0" zoomcentercursor="0" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
   </panorama>
   <panorama id="node8">
     <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" height="3690" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3690" levelingpitch="0">
@@ -164,7 +164,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
     <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <control dblclickfullscreen="0" zoomcentercursor="0" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
   </panorama>
   <masternode>
     <userdata copyright="" tags="" description="" title="" author="" comment=""/>
