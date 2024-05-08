@@ -11,8 +11,8 @@
     <view pannorth="112.069" fovmode="2">
       <start tilt="0" pan="0" fov="100" projection="4"/>
       <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <min tilt="-90" pan="0" fov="30"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="100" fovstereographic="330"/>
     </view>
     <userdata nodeid="node10" tags="客廳|日日旅樹民宿" heading="112.069" info="" source="" title="客廳" comment="" datetime="2024/4/1 15:58" longitude="121.60498409" copyright="jp-image.space" description="休閒交誼的好地方" customnodeid="" author="James Lee" latitude="23.98534840">
       <mapcoords mapid="1st_floorPlan" x="0.288391" x_floorplan_percent="20.0957" y_floorplan_percent="18.2815" y="-0.137329"/>
@@ -38,8 +38,8 @@
     <view pannorth="54.8109" fovmode="2">
       <start tilt="0" pan="0" fov="100" projection="4"/>
       <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <min tilt="-90" pan="0" fov="30"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="100" fovstereographic="330"/>
     </view>
     <userdata nodeid="node11" tags="客廳|日日旅樹民宿" heading="54.8109" info="" source="" title="展示空間" comment="" datetime="2024/4/1 15:52" longitude="121.60504706" copyright="jp-image.space" description="用來展示多年來，業主在世界各地征戰獲得的戰利品&#xa;以貓頭鷹居多。" customnodeid="" author="James Lee" latitude="23.98539646">
       <mapcoords mapid="1st_floorPlan" x="0.95993" x_floorplan_percent="66.89" y_floorplan_percent="14.2596" y="-0.107117"/>
@@ -66,8 +66,8 @@
     <view pannorth="-76.8374" fovmode="2">
       <start tilt="0" pan="0" fov="100" projection="4"/>
       <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <min tilt="-90" pan="0" fov="30"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="100" fovstereographic="330"/>
     </view>
     <userdata nodeid="node9" tags="客廳|日日旅樹民宿" heading="-76.8374" info="" source="" title="用餐區" comment="" datetime="2024/4/1 15:48" longitude="121.60507532" copyright="jp-image.space" description="提供您舒適用餐的環境。&#xa;後面就是廚房，如果您想要一展身手，這就是您的舞台。" customnodeid="" author="James Lee" latitude="23.98536611">
       <mapcoords mapid="1st_floorPlan" x="0.98465" x_floorplan_percent="68.6124" y_floorplan_percent="57.7697" y="-0.43396"/>
@@ -94,8 +94,8 @@
     <view pannorth="70.1461" fovmode="2">
       <start tilt="0" pan="-180" fov="173" projection="4"/>
       <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <min tilt="-90" pan="0" fov="30"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="100" fovstereographic="330"/>
     </view>
     <userdata nodeid="node6" tags="房間|日日旅樹民宿" heading="70.1461" info="" source="" title="樓梯間" comment="" datetime="2024/4/1 15:19" longitude="121.60513373" copyright="jp-image.space" description="往二樓的空間" customnodeid="" author="James Lee" latitude="23.98539862">
       <mapcoords mapid="2nd_floorPlan" x="1.01898" x_floorplan_percent="72.3197" y_floorplan_percent="74.5887" y="-0.560303"/>
@@ -122,8 +122,8 @@
     <view pannorth="1.22071" fovmode="2">
       <start tilt="0" pan="-180" fov="130" projection="4"/>
       <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <min tilt="-90" pan="0" fov="30"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="100" fovstereographic="330"/>
     </view>
     <userdata nodeid="node7" tags="房間|日日旅樹民宿" heading="1.22071" info="" source="" title="Room 201" comment="" datetime="2024/4/1 15:26" longitude="121.60509446" copyright="jp-image.space" description="有秘密空間的小窩" customnodeid="" author="James Lee" latitude="23.98544884">
       <mapcoords mapid="2nd_floorPlan" x="1.0025" x_floorplan_percent="71.1501" y_floorplan_percent="32.9068" y="-0.247192"/>
@@ -150,8 +150,8 @@
     <view pannorth="101.678" fovmode="2">
       <start tilt="0" pan="0" fov="100" projection="4"/>
       <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <min tilt="-90" pan="0" fov="30"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="100" fovstereographic="330"/>
     </view>
     <userdata nodeid="node8" tags="房間|日日旅樹民宿" heading="101.678" info="" source="" title="Room 201" comment="" datetime="2024/4/1 15:35" longitude="121.60501290" copyright="jp-image.space" description="上面就是每個小朋友必爭的秘密空間。&#xa;得閣樓得天下。" customnodeid="" author="James Lee" latitude="23.98535935">
       <mapcoords mapid="2nd_floorPlan" x="0.431213" x_floorplan_percent="30.6043" y_floorplan_percent="50.0914" y="-0.376282"/>
