@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="7.0.10" apprev="20025">
+  <panorama id="node1">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
+      <level preload="0" predecode="0" height="1536" width="2730"/>
+      <level preload="0" predecode="0" height="768" width="1365"/>
+      <level preload="0" predecode="0" height="384" width="682"/>
+      <level preload="1" predecode="1" height="192" width="341"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="500" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node1" tags="早餐" heading="0" info="" source="" title="早餐" comment="" datetime="" longitude="" copyright="" description="唷～一個說故事的男人也可以做出好吃的早餐" customnodeid="" author="" latitude=""/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
+      <level preload="0" predecode="0" height="1536" width="2730"/>
+      <level preload="0" predecode="0" height="768" width="1365"/>
+      <level preload="0" predecode="0" height="384" width="682"/>
+      <level preload="1" predecode="1" height="192" width="341"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="500" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node2" tags="早餐" heading="0" info="" source="" title="早餐" comment="" datetime="" longitude="" copyright="" description="這是杯盤狼藉的前一刻。&#xa;一陣秋風掃落葉後，只留下一點殘渣說明了曾經存在的餐點。" customnodeid="" author="" latitude=""/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="960" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1707" levelingpitch="0">
+      <level preload="0" predecode="0" height="960" width="1707"/>
+      <level preload="0" predecode="0" height="480" width="853"/>
+      <level preload="1" predecode="1" height="240" width="426"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" pan="0" fov="500" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node3" tags="早餐" heading="0" info="" source="" title="早餐" comment="" datetime="" longitude="" copyright="" description="客人滿不滿意，只要看這群不相識的人，願意一起拍個照，臉上的表情已經說明，對民宿的滿意有多少。" customnodeid="" author="" latitude=""/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" tags="" description="老闆用心搭配的餐點" title="早餐照" author="" comment=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
