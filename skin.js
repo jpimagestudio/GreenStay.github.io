@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: skin_with_FloorPlan_and_Logo??2.ggsk
-// Generated 2024-05-10T11:31:28
+// Generated 2024-05-10T11:58:02
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_thumbnail_menu', 2, false, { ignoreInState: 1  });
@@ -3744,6 +3744,35 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._gallery.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStateScaling = 0;
+			}
+			else {
+				newLogicStateScaling = -1;
+			}
+			if (me._gallery.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me._gallery.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me._gallery.style.transition='transform 0s';
+				if (me._gallery.ggCurrentLogicStateScaling == 0) {
+					me._gallery.ggParameter.sx = 0.5;
+					me._gallery.ggParameter.sy = 0.5;
+					me._gallery.style.transform=parameterToTransform(me._gallery.ggParameter);
+					skin.updateSize(me._gallery);
+				}
+				else {
+					me._gallery.ggParameter.sx = 1;
+					me._gallery.ggParameter.sy = 1;
+					me._gallery.style.transform=parameterToTransform(me._gallery.ggParameter);
+					skin.updateSize(me._gallery);
+				}
+			}
+		}
+		me._gallery.logicBlock_scaling();
 		me._gallery.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
@@ -3757,7 +3786,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._gallery.ggCurrentLogicStateVisible != newLogicStateVisible) {
 				me._gallery.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._gallery.style.transition='';
+				me._gallery.style.transition='transform 0s';
 				if (me._gallery.ggCurrentLogicStateVisible == 0) {
 					me._gallery.style.visibility=(Number(me._gallery.style.opacity)>0||!me._gallery.style.opacity)?'inherit':'hidden';
 					me._gallery.ggVisible=true;
@@ -4069,6 +4098,7 @@ function pano2vrSkin(player,base) {
 		me._tt_pano_next.logicBlock_visible();
 		me._dropdown_menu_title_background.logicBlock_backgroundcolor();
 		me._screen_tint.logicBlock_visible();
+		me._gallery.logicBlock_scaling();
 		me._gallery.logicBlock_visible();
 		player.addListener('activehotspotchanged', function(event) {
 			for(var i = 0; i < me._thumbnail_cloner.ggInstances.length; i++) {
@@ -4177,6 +4207,7 @@ function pano2vrSkin(player,base) {
 			me._tt_pano_next.logicBlock_position();
 			me._dropdown_scrollarea.ggUpdatePosition();
 			me._screen_tint.logicBlock_visible();
+			me._gallery.logicBlock_scaling();
 			me._gallery.logicBlock_visible();
 		});
 		player.addListener('fullscreenenter', function(event) {
