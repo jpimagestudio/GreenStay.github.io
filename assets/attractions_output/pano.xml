@@ -1,271 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1" appversion="7.0.10" apprev="20025">
   <panorama id="node1">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node1" tags="景點" heading="0" info="" source="" title="崇德海岸" comment="" datetime="" longitude="" copyright="" description="從崇德車站北側的小路進入，通過鐵路涵洞後，映入眼簾的是一段綿延數公里的月牙灣。 往北是巍峨宏偉的清水斷崖，以幾近垂直的角度插入太平洋。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="崇德海岸" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="從崇德車站北側的小路進入，通過鐵路涵洞後，映入眼簾的是一段綿延數公里的月牙灣。 &#xa;&#xa;往北是巍峨宏偉的清水斷崖，以幾近垂直的角度插入太平洋。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" nodeid="node1"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node2">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node2" tags="景點" heading="0" info="" source="" title="崇德海岸" comment="" datetime="" longitude="" copyright="" description="這裡有黑潮通過，漁業資源相當豐富。崇德海灘不僅是少數遊客心目中的私房景點，偶爾可以見到漁民滿載漁獲歸來，還可順便買些最新鮮的漁貨加菜！&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="崇德海岸" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="這裡有黑潮通過，漁業資源相當豐富。&#xa;&#xa;崇德海灘不僅是少數遊客心目中的私房景點，偶爾可以見到漁民滿載漁獲歸來，還可順便買些最新鮮的漁貨加菜！&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" nodeid="node2"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node3">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node3" tags="景點" heading="0" info="" source="" title="大石鼻山步道" comment="" datetime="" longitude="" copyright="" description="豐濱鄉磯崎海濱遊憩區，是條總長約910公尺的登山步道，走完全程大約需要1小時，步道大部分為枕木及石頭階梯，沿途可見野百合、七里香、刺蔥等豐富的植物及各種昆蟲，走到最高點還可全覽整個磯崎海灣，是條適合親子同行的自然生態步道。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="大石鼻山步道" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="豐濱鄉磯崎海濱遊憩區，是條總長約910公尺的登山步道，走完全程大約需要1小時。&#xa;&#xa;步道大部分為枕木及石頭階梯，沿途可見野百合、七里香、刺蔥等豐富的植物及各種昆蟲。&#xa;&#xa;走到最高點還可全覽整個磯崎海灣，是條適合親子同行的自然生態步道。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" nodeid="node3"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node4">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1438" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2556" levelingpitch="0">
-      <level preload="0" predecode="0" height="1438" width="2556"/>
-      <level preload="0" predecode="0" height="719" width="1278"/>
-      <level preload="0" predecode="0" height="359" width="639"/>
-      <level preload="1" predecode="1" height="179" width="319"/>
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1438" width="2556" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1438" width="2556" predecode="0" preload="0"/>
+      <level height="719" width="1278" predecode="0" preload="0"/>
+      <level height="359" width="639" predecode="0" preload="0"/>
+      <level height="179" width="319" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node4" tags="景點" heading="0" info="" source="" title="磯崎海濱遊憩區" comment="" datetime="" longitude="" copyright="" description="磯崎海濱休憩區位於花蓮縣豐濱鄉的磯崎海灣，距離花蓮市約40公里，周邊群山環繞，在休憩區南端，點綴了一座高約100公尺的大石鼻山，並設有一條大石鼻山步道，長910公尺左右，大部分為枕木及石頭階梯構成。&#xa;沿步道上行，可見許多當地居民栽植植物，例如刺蔥、野百合或七里香等。步道階梯起伏不大，又充滿豐富生態及面海景觀，走完全程約1小時左右，十分適合全家大小共遊。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網&#xa;&#xa;&#xa;" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="磯崎海濱遊憩區" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="磯崎海濱休憩區位於花蓮縣豐濱鄉的磯崎海灣，距離花蓮市約40公里，周邊群山環繞。&#xa;&#xa;在休憩區南端，點綴了一座高約100公尺的大石鼻山，並設有一條大石鼻山步道，長910公尺左右，大部分為枕木及石頭階梯構成。&#xa;&#xa;沿步道上行，可見許多當地居民栽植植物，例如刺蔥、野百合或七里香等。&#xa;&#xa;步道階梯起伏不大，又充滿豐富生態及面海景觀，走完全程約1小時左右，十分適合全家大小共遊。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網&#xa;&#xa;&#xa;" nodeid="node4"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node5">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2730" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1536" levelingpitch="0">
-      <level preload="0" predecode="0" height="2730" width="1536"/>
-      <level preload="0" predecode="0" height="1365" width="768"/>
-      <level preload="0" predecode="0" height="682" width="384"/>
-      <level preload="1" predecode="1" height="341" width="192"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="2730" width="1536" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="2730" width="1536" predecode="0" preload="0"/>
+      <level height="1365" width="768" predecode="0" preload="0"/>
+      <level height="682" width="384" predecode="0" preload="0"/>
+      <level height="341" width="192" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node5" tags="景點" heading="0" info="" source="" title="將軍府 1936" comment="" datetime="" longitude="" copyright="" description="花蓮將軍府１９３６位於花蓮市中正橋旁，鬧中取靜，前身為花蓮腹地最大的文資聚落「美崙溪畔日式宿舍群」，在日治時期原為提供花蓮港分屯大隊高階軍官住宿的社區，人稱「將軍府」，其建物設計手法融入本地環境，並有圍牆及門栓，皆是一九三六年落成的產物，外觀與主體構造保存完整，具特殊價值。&#xa;&#xa; 資料來源：更生新聞網&#xa;&#xa;" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="將軍府 1936" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="花蓮將軍府１９３６位於花蓮市中正橋旁，鬧中取靜。&#xa;&#xa;前身為花蓮腹地最大的文資聚落「美崙溪畔日式宿舍群」，在日治時期原為提供花蓮港分屯大隊高階軍官住宿的社區，人稱「將軍府」。&#xa;&#xa;其建物設計手法融入本地環境，並有圍牆及門栓，皆是一九三六年落成的產物，外觀與主體構造保存完整，具特殊價值。&#xa;&#xa; 資料來源：更生新聞網&#xa;&#xa;" nodeid="node5"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node6">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node6" tags="景點" heading="0" info="" source="" title="將軍府 1936" comment="" datetime="" longitude="" copyright="" description="園區包含一棟縣定古蹟及七棟歷史建築，為文化局向文化部爭取前瞻計畫經費，含部分自籌，前後斥資新臺幣二點六億元修復與再造，為花蓮重要文史地標。此次修復不僅保留歷史建築的獨特魅力，也加入現代元素，以及日式庭園及水池；更難得的是部分區域增設明火廚房，添加餐飲的多樣性，為花蓮文資景點帶來全新風貌。&#xa;&#xa;&#xa;資料來源：更生新聞網" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="將軍府 1936" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="園區包含一棟縣定古蹟及七棟歷史建築，為文化局向文化部爭取前瞻計畫經費，含部分自籌，前後斥資新臺幣二點六億元修復與再造，為花蓮重要文史地標。&#xa;&#xa;此次修復不僅保留歷史建築的獨特魅力，也加入現代元素，以及日式庭園及水池。&#xa;&#xa;更難得的是部分區域增設明火廚房，添加餐飲的多樣性，為花蓮文資景點帶來全新風貌。&#xa;&#xa;&#xa;資料來源：更生新聞網" nodeid="node6"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node11">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node11" tags="景點" heading="0" info="" source="" title="石門遊憩區" comment="" datetime="" longitude="" copyright="" description="「石門遊憩區」位於石梯漁港北邊4、5公里處，由於此處海岸礁岩區有碩大的海蝕洞，形狀如門而得名，加上2016年好萊塢電影《沉默》也曾到此取景，「石門」地景也更加聲名大噪。&#xa;&#xa;沿台11線直行來到石門遊憩區，這裡有便利的停車空間與步道群。石門遊憩區的步道沿地勢興建，右側通往公廁方向，中間的步道通往看海景觀涼亭，左側的步道才是通往海蝕洞的主要方向。&#xa;&#xa;&#xa;資料來源：東部海岸國家風景區管理處" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="石門遊憩區" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="「石門遊憩區」位於石梯漁港北邊4、5公里處，由於此處海岸礁岩區有碩大的海蝕洞，形狀如門而得名，加上2016年好萊塢電影《沉默》也曾到此取景，「石門」地景也更加聲名大噪。&#xa;&#xa;沿台11線直行來到石門遊憩區，這裡有便利的停車空間與步道群。石門遊憩區的步道沿地勢興建，右側通往公廁方向，中間的步道通往看海景觀涼亭，左側的步道才是通往海蝕洞的主要方向。&#xa;&#xa;&#xa;資料來源：東部海岸國家風景區管理處" nodeid="node11"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node7">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node7" tags="景點" heading="0" info="" source="" title="石門 March 洞" comment="" datetime="" longitude="" copyright="" description=" 從石門遊憩區至石梯坪、港口部落，是一段綿延數公里長的礁岩海岸，原為火山岩層的礁岩海岸經年累月在海浪侵蝕下，形成豐富的地質景觀，如：「海蝕洞、海蝕溝、壺穴、海蝕平台」等地形非常發達，而這裡最大的石門海蝕洞高5公尺、寬18公尺，共有三處穿透的洞口，上方洞口生長了一株巨大的雀榕，靠海一側的洞口則因形狀貌似「march汽車」，被稱為「march洞」，連同海蝕洞外側、面向太平洋的海蝕溝槽，如今成為目前遊客造訪必拍照打卡的地景畫面！&#xa;&#xa;來到石門遊憩區，除了在march洞和海濱拍照留念外，也可站在洞穴內，仔細聆聽風浪呼嘯在洞穴內產生的立體共鳴。同時，留心觀察這裡繽紛的海岸生態，尤其礁岩海岸遍佈生長的各類海藻，是魚蝦的覓食天堂，也成為適合觀察海岸生物的天然教室。&#xa;&#xa;&#xa;資料來源：東部海岸國家風景區管理處" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="石門 March 洞" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description=" 從石門遊憩區至石梯坪、港口部落，是一段綿延數公里長的礁岩海岸，原為火山岩層的礁岩海岸經年累月在海浪侵蝕下，形成豐富的地質景觀，如：「海蝕洞、海蝕溝、壺穴、海蝕平台」等地形非常發達。&#xa;&#xa;而這裡最大的石門海蝕洞高5公尺、寬18公尺，共有三處穿透的洞口，上方洞口生長了一株巨大的雀榕，靠海一側的洞口則因形狀貌似「march汽車」，被稱為「march洞」，連同海蝕洞外側、面向太平洋的海蝕溝槽，如今成為目前遊客造訪必拍照打卡的地景畫面！&#xa;&#xa;來到石門遊憩區，除了在march洞和海濱拍照留念外，也可站在洞穴內，仔細聆聽風浪呼嘯在洞穴內產生的立體共鳴。&#xa;&#xa;同時，留心觀察這裡繽紛的海岸生態，尤其礁岩海岸遍佈生長的各類海藻，是魚蝦的覓食天堂，也成為適合觀察海岸生物的天然教室。&#xa;&#xa;&#xa;資料來源：東部海岸國家風景區管理處" nodeid="node7"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node8">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node8" tags="景點" heading="0" info="" source="" title="太魯閣燕子口步道" comment="" datetime="" longitude="" copyright="" description="沿著中橫公路到達燕子口，立霧溪峽谷在此變得更狹窄了，從這裡向西延伸到慈母橋，是立霧溪峽谷最膾炙人口的一段。燕子口步道從燕子口到靳珩橋，途中可欣賞太魯閣峽谷、壺穴、湧泉、印地安酋長岩等景觀。&#xa;&#xa;而靳珩公園是為了紀念中橫公路開闢期間，不幸犧牲的靳珩段長所建，公園中有靳珩段長塑像、合流工程處殉職員工紀念碑、及小型商店，而商店外的觀景平台，則是欣賞印地安酋長岩最佳的位置。燕子口步道可說是一條兼具地形、生態與人文特色的步道。&#xa;&#xa;燕子口的地形是立霧溪水歷經久遠的歲月所切割雕琢出來的，像印地安酋長岩即是其中一個令人嘆為觀止的佳作；石灰岩崖壁上的壺穴，並非是燕子鑿出來也不是燕子窩，是地下水出口和立霧溪水侵蝕所造成的，燕子們於其間覓食嬉戲，因而得名。&#xa;&#xa;資料來源：太魯閣國家公園資訊網&#xa;" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="太魯閣燕子口步道" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="沿著中橫公路到達燕子口，立霧溪峽谷在此變得更狹窄了，從這裡向西延伸到慈母橋，是立霧溪峽谷最膾炙人口的一段。燕子口步道從燕子口到靳珩橋，途中可欣賞太魯閣峽谷、壺穴、湧泉、印地安酋長岩等景觀。&#xa;&#xa;而靳珩公園是為了紀念中橫公路開闢期間，不幸犧牲的靳珩段長所建，公園中有靳珩段長塑像、合流工程處殉職員工紀念碑、及小型商店，而商店外的觀景平台，則是欣賞印地安酋長岩最佳的位置。燕子口步道可說是一條兼具地形、生態與人文特色的步道。&#xa;&#xa;燕子口的地形是立霧溪水歷經久遠的歲月所切割雕琢出來的，像印地安酋長岩即是其中一個令人嘆為觀止的佳作；石灰岩崖壁上的壺穴，並非是燕子鑿出來也不是燕子窩，是地下水出口和立霧溪水侵蝕所造成的，燕子們於其間覓食嬉戲，因而得名。&#xa;&#xa;資料來源：太魯閣國家公園資訊網&#xa;" nodeid="node8"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node9">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node9" tags="景點" heading="0" info="" source="" title="新城天主堂" comment="" datetime="" longitude="" copyright="" description="1956年新城天主堂落成在新城神社原址，諾亞方舟的造型有著新生再造的意義，天主堂洗石子的牆面爬滿了青綠色的藤蔓，內部莊嚴潔淨，兩側窗戶鑲嵌彩繪玻璃，後有聖洗池及告解區。&#xa;&#xa;資料來源：花蓮觀光資訊網" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="新城天主堂" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="1956年新城天主堂落成在新城神社原址，諾亞方舟的造型有著新生再造的意義。&#xa;&#xa;天主堂洗石子的牆面爬滿了青綠色的藤蔓，內部莊嚴潔淨，兩側窗戶鑲嵌彩繪玻璃，後有聖洗池及告解區。&#xa;&#xa;資料來源：花蓮觀光資訊網" nodeid="node9"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <panorama id="node10">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1536" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2730" levelingpitch="0">
-      <level preload="0" predecode="0" height="1536" width="2730"/>
-      <level preload="0" predecode="0" height="768" width="1365"/>
-      <level preload="0" predecode="0" height="384" width="682"/>
-      <level preload="1" predecode="1" height="192" width="341"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" flat="1" levelbias="0.400" levelingroll="0" leveltilesize="510" height="1536" width="2730" levelbiashidpi="1.000" cylinder="1" overlap="1">
+      <level height="1536" width="2730" predecode="0" preload="0"/>
+      <level height="768" width="1365" predecode="0" preload="0"/>
+      <level height="384" width="682" predecode="0" preload="0"/>
+      <level height="192" width="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="330" fov="140" pan="360" scaletofit="0" tilt="90"/>
     </view>
-    <userdata nodeid="node10" tags="景點" heading="0" info="" source="" title="新城天主堂" comment="" datetime="" longitude="" copyright="" description="教堂開放給遊客參觀，但請放輕腳步及音量，以免打擾到正在禱告或者告解的信徒。&#xa;&#xa;天主堂前的花圃，還保留著「殉難將士瘞骨碑」字樣的大理石，這是為紀念「新城事件」殉難的日軍，1920年設立時背面還刻有罹難者的名字，但隨著時間推移，現在已模糊難辨。&#xa;&#xa;資料來源：花蓮觀光資訊網" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" longitude="" title="新城天主堂" latitude="" source="" heading="0" copyright="" comment="" info="" datetime="" tags="景點" customnodeid="" description="教堂開放給遊客參觀，但請放輕腳步及音量，以免打擾到正在禱告或者告解的信徒。&#xa;&#xa;天主堂前的花圃，還保留著「殉難將士瘞骨碑」字樣的大理石，這是為紀念「新城事件」殉難的日軍，1920年設立時背面還刻有罹難者的名字，但隨著時間推移，現在已模糊難辨。&#xa;&#xa;&#xa;資料來源：花蓮觀光資訊網" nodeid="node10"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" wordwrap="1" height="20" background="1" width="180" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition delay="none" enabled="1" softedge="0" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
+    <control sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextvr="1" lockedmouse="0" speedwheel="1" lockedkeyboard="0" contextprojections="0" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" rubberband="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" description="花蓮知名景點照片" title="景點照" author="" comment=""/>
+    <userdata author="" title="景點照" description="花蓮知名景點照片" copyright="" comment="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
