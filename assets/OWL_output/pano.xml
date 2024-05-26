@@ -1,227 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="7.0.10" apprev="20025">
+<tour apprev="20035" appversion="7.0.12" start="node1">
   <panorama id="node1">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3038" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4557" levelingpitch="0">
-      <level preload="0" predecode="0" height="3038" width="4557"/>
-      <level preload="0" predecode="0" height="1519" width="2278"/>
-      <level preload="0" predecode="0" height="759" width="1139"/>
-      <level preload="0" predecode="0" height="379" width="569"/>
-      <level preload="1" predecode="1" height="189" width="284"/>
+    <input levelingroll="0" height="3038" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4557" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="4557" height="3038" predecode="0" preload="0"/>
+      <level width="2278" height="1519" predecode="0" preload="0"/>
+      <level width="1139" height="759" predecode="0" preload="0"/>
+      <level width="569" height="379" predecode="0" preload="0"/>
+      <level width="284" height="189" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node1" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="2024/4/2 11:32" longitude="" copyright="jp-image.space" description="打招呼的貓頭鷹" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="James Lee" info="" heading="0" longitude="" source="" copyright="jp-image.space" comment="" datetime="2024/4/2 11:32" description="打招呼的貓頭鷹" latitude="" title="貓頭鷹" nodeid="node1"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node2">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3254" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4881" levelingpitch="0">
-      <level preload="0" predecode="0" height="3254" width="4881"/>
-      <level preload="0" predecode="0" height="1627" width="2440"/>
-      <level preload="0" predecode="0" height="813" width="1220"/>
-      <level preload="0" predecode="0" height="406" width="610"/>
-      <level preload="1" predecode="1" height="203" width="305"/>
+    <input levelingroll="0" height="3254" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4881" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="4881" height="3254" predecode="0" preload="0"/>
+      <level width="2440" height="1627" predecode="0" preload="0"/>
+      <level width="1220" height="813" predecode="0" preload="0"/>
+      <level width="610" height="406" predecode="0" preload="0"/>
+      <level width="305" height="203" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node2" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="2024/4/2 11:02" longitude="" copyright="jp-image.space" description="孤獨的貓頭鷹" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="James Lee" info="" heading="0" longitude="" source="" copyright="jp-image.space" comment="" datetime="2024/4/2 11:02" description="孤獨的貓頭鷹" latitude="" title="貓頭鷹" nodeid="node2"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node4">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelingroll="0" height="3648" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="5472" height="3648" predecode="0" preload="0"/>
+      <level width="2736" height="1824" predecode="0" preload="0"/>
+      <level width="1368" height="912" predecode="0" preload="0"/>
+      <level width="684" height="456" predecode="0" preload="0"/>
+      <level width="342" height="228" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node4" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="2024/4/2 11:57" longitude="" copyright="jp-image.space" description="平安貓頭鷹" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="James Lee" info="" heading="0" longitude="" source="" copyright="jp-image.space" comment="" datetime="2024/4/2 11:57" description="平安貓頭鷹" latitude="" title="貓頭鷹" nodeid="node4"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node9">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1672" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2508" levelingpitch="0">
-      <level preload="0" predecode="0" height="1672" width="2508"/>
-      <level preload="0" predecode="0" height="836" width="1254"/>
-      <level preload="0" predecode="0" height="418" width="627"/>
-      <level preload="1" predecode="1" height="209" width="313"/>
+    <input levelingroll="0" height="1672" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2508" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="2508" height="1672" predecode="0" preload="0"/>
+      <level width="1254" height="836" predecode="0" preload="0"/>
+      <level width="627" height="418" predecode="0" preload="0"/>
+      <level width="313" height="209" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node9" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="" longitude="" copyright="" description="QQ貓頭鷹" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="" info="" heading="0" longitude="" source="" copyright="" comment="" datetime="" description="QQ貓頭鷹" latitude="" title="貓頭鷹" nodeid="node9"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node10">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1573" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2665" levelingpitch="0">
-      <level preload="0" predecode="0" height="1573" width="2665"/>
-      <level preload="0" predecode="0" height="786" width="1332"/>
-      <level preload="0" predecode="0" height="393" width="666"/>
-      <level preload="1" predecode="1" height="196" width="333"/>
+    <input levelingroll="0" height="1573" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2665" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="2665" height="1573" predecode="0" preload="0"/>
+      <level width="1332" height="786" predecode="0" preload="0"/>
+      <level width="666" height="393" predecode="0" preload="0"/>
+      <level width="333" height="196" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node10" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="" longitude="" copyright="" description="彩繪貓頭鷹" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="" info="" heading="0" longitude="" source="" copyright="" comment="" datetime="" description="彩繪貓頭鷹" latitude="" title="貓頭鷹" nodeid="node10"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node11">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1672" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2508" levelingpitch="0">
-      <level preload="0" predecode="0" height="1672" width="2508"/>
-      <level preload="0" predecode="0" height="836" width="1254"/>
-      <level preload="0" predecode="0" height="418" width="627"/>
-      <level preload="1" predecode="1" height="209" width="313"/>
+    <input levelingroll="0" height="1672" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2508" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="2508" height="1672" predecode="0" preload="0"/>
+      <level width="1254" height="836" predecode="0" preload="0"/>
+      <level width="627" height="418" predecode="0" preload="0"/>
+      <level width="313" height="209" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node11" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="" longitude="" copyright="" description="哩賀貓頭鷹" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="" info="" heading="0" longitude="" source="" copyright="" comment="" datetime="" description="哩賀貓頭鷹" latitude="" title="貓頭鷹" nodeid="node11"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node13">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="1672" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2508" levelingpitch="0">
-      <level preload="0" predecode="0" height="1672" width="2508"/>
-      <level preload="0" predecode="0" height="836" width="1254"/>
-      <level preload="0" predecode="0" height="418" width="627"/>
-      <level preload="1" predecode="1" height="209" width="313"/>
+    <input levelingroll="0" height="1672" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2508" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="2508" height="1672" predecode="0" preload="0"/>
+      <level width="1254" height="836" predecode="0" preload="0"/>
+      <level width="627" height="418" predecode="0" preload="0"/>
+      <level width="313" height="209" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node13" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="" longitude="" copyright="" description="不是我貓頭鷹" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="" info="" heading="0" longitude="" source="" copyright="" comment="" datetime="" description="不是我貓頭鷹" latitude="" title="貓頭鷹" nodeid="node13"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node14">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2730" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1536" levelingpitch="0">
-      <level preload="0" predecode="0" height="2730" width="1536"/>
-      <level preload="0" predecode="0" height="1365" width="768"/>
-      <level preload="0" predecode="0" height="682" width="384"/>
-      <level preload="1" predecode="1" height="341" width="192"/>
+    <input levelingroll="0" height="2730" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1536" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1536" height="2730" predecode="0" preload="0"/>
+      <level width="768" height="1365" predecode="0" preload="0"/>
+      <level width="384" height="682" predecode="0" preload="0"/>
+      <level width="192" height="341" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node14" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="" longitude="" copyright="" description="夜光貓頭鷹" customnodeid="" author="" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="" info="" heading="0" longitude="" source="" copyright="" comment="" datetime="" description="夜光貓頭鷹" latitude="" title="貓頭鷹" nodeid="node14"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node15">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelingroll="0" height="3648" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="5472" height="3648" predecode="0" preload="0"/>
+      <level width="2736" height="1824" predecode="0" preload="0"/>
+      <level width="1368" height="912" predecode="0" preload="0"/>
+      <level width="684" height="456" predecode="0" preload="0"/>
+      <level width="342" height="228" predecode="1" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="500" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
-    <userdata nodeid="node15" tags="貓頭鷹" heading="0" info="" source="" title="貓頭鷹" comment="" datetime="2024/4/2 11:40" longitude="" copyright="jp-image.space" description="初心貓頭鷹" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata tags="貓頭鷹" customnodeid="" author="James Lee" info="" heading="0" longitude="" source="" copyright="jp-image.space" comment="" datetime="2024/4/2 11:40" description="初心貓頭鷹" latitude="" title="貓頭鷹" nodeid="node15"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" description="到處收集的貓頭鷹" title="OWL Collections" author="" comment=""/>
+    <userdata author="" copyright="" comment="" description="到處收集的貓頭鷹" title="OWL Collections" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>

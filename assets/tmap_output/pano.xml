@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="20035" appversion="7.0.12" id="node1">
+  <input levelbiashidpi="1.000" width="2811" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5397" levelbias="0.400" flat="1">
+    <level width="2811" height="5397" preload="0" predecode="0"/>
+    <level width="1405" height="2698" preload="0" predecode="0"/>
+    <level width="702" height="1349" preload="0" predecode="0"/>
+    <level width="351" height="674" preload="0" predecode="0"/>
+    <level width="175" height="337" preload="1" predecode="1"/>
+    <preview color="0x808080"/>
+  </input>
+  <view pannorth="0" fovmode="2">
+    <start tilt="0" projection="4" fov="500" pan="0"/>
+    <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+    <min fovpixel="2" tilt="-90" pan="0"/>
+    <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
+  </view>
+  <userdata comment="" source="" copyright="jp-image.space" tags="Gallery6_Hualien Map|T-Map" nodeid="node1" author="" customnodeid="" datetime="" description="您知道花蓮過去的稱呼是洄瀾嗎？&#xa;您看過中橫公路熱門打卡景點的牌樓嗎？&#xa;花蓮縣是台灣最長的縣市，地處板塊斷層帶，地震自然不在話下。&#xa;&#xa;有這一說，再震下去，花蓮會獨立出去成為一個離島囉。" longitude="" info="" heading="0" title="洄瀾-花蓮" latitude=""/>
+  <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+    <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+    <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+  <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+  <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
+  <projectuserdata tags="" author="" description="" comment="" copyright="" title=""/>
+</panorama>

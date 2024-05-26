@@ -1,380 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="7.0.10" apprev="20025">
+<tour apprev="20035" appversion="7.0.12" start="node1">
   <panorama id="node1">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2794" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4191" levelingpitch="0">
-      <level preload="0" predecode="0" height="2794" width="4191"/>
-      <level preload="0" predecode="0" height="1397" width="2095"/>
-      <level preload="0" predecode="0" height="698" width="1047"/>
-      <level preload="0" predecode="0" height="349" width="523"/>
-      <level preload="1" predecode="1" height="174" width="261"/>
+    <input levelbiashidpi="1.000" width="4191" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2794" levelbias="0.400" flat="1">
+      <level width="4191" height="2794" preload="0" predecode="0"/>
+      <level width="2095" height="1397" preload="0" predecode="0"/>
+      <level width="1047" height="698" preload="0" predecode="0"/>
+      <level width="523" height="349" preload="0" predecode="0"/>
+      <level width="261" height="174" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node1" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 10:00" longitude="" copyright="jp-image.space" description="螞蟻世界裡的微觀。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node1" author="James Lee" customnodeid="" datetime="2024/4/2 10:00" description="螞蟻世界裡的微觀。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node6">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3648" levelbias="0.400" flat="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node6" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:13" longitude="" copyright="jp-image.space" description="ㄜ ....還不只一隻。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node6" author="James Lee" customnodeid="" datetime="2024/4/2 11:13" description="ㄜ ....還不只一隻。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node3">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3648" levelbias="0.400" flat="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node3" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 10:44" longitude="" copyright="jp-image.space" description="午後慵懶的小貓。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node3" author="James Lee" customnodeid="" datetime="2024/4/2 10:44" description="午後慵懶的小貓。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node4">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2901" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4352" levelingpitch="0">
-      <level preload="0" predecode="0" height="2901" width="4352"/>
-      <level preload="0" predecode="0" height="1450" width="2176"/>
-      <level preload="0" predecode="0" height="725" width="1088"/>
-      <level preload="0" predecode="0" height="362" width="544"/>
-      <level preload="1" predecode="1" height="181" width="272"/>
+    <input levelbiashidpi="1.000" width="4352" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2901" levelbias="0.400" flat="1">
+      <level width="4352" height="2901" preload="0" predecode="0"/>
+      <level width="2176" height="1450" preload="0" predecode="0"/>
+      <level width="1088" height="725" preload="0" predecode="0"/>
+      <level width="544" height="362" preload="0" predecode="0"/>
+      <level width="272" height="181" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node4" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 10:50" longitude="" copyright="jp-image.space" description="有發現笑笑羊在哪嗎？" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node4" author="James Lee" customnodeid="" datetime="2024/4/2 10:50" description="有發現笑笑羊在哪嗎？" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node5">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3648" levelbias="0.400" flat="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node5" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 10:53" longitude="" copyright="jp-image.space" description="後花園的距離。&#xa;如果午後的微風能夠帶上一杯香醇的咖啡....." customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node5" author="James Lee" customnodeid="" datetime="2024/4/2 10:53" description="後花園的距離。&#xa;如果午後的微風能夠帶上一杯香醇的咖啡....." longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node7">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3648" levelbias="0.400" flat="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node7" tags="Enfuse HDR output|Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:18" longitude="" copyright="jp-image.space" description="噢，這真的有點距離。&#xa;如果可以，能不能帶我跨越這個框架？" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Enfuse HDR output|Gallery 4" nodeid="node7" author="James Lee" customnodeid="" datetime="2024/4/2 11:18" description="噢，這真的有點距離。&#xa;如果可以，能不能帶我跨越這個框架？" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node2">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3648" levelbias="0.400" flat="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node2" tags="Enfuse HDR output|Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 10:36" longitude="" copyright="jp-image.space" description="花蓮最多的特產，就是陽光與高山的演繹。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Enfuse HDR output|Gallery 4" nodeid="node2" author="James Lee" customnodeid="" datetime="2024/4/2 10:36" description="陽台對面的是自由廣場&#xa;&#xa;1937 年，這裡曾是「花蓮港廳刑務支所」，專門收容全國重刑犯與花東地區的受刑人。&#xa;&#xa;直到 2002 年，花蓮市公所重新利用這塊閒置空間，並命名為自由廣場，同時與民間藝文團體合作不定期舉行藝術創作活動，使其成為花蓮市另一處戶外大型休憩空間。&#xa;&#xa;現僅存的舊監獄圍牆與兩座瞭望塔，已正式公告為縣定古蹟。&#xa;&#xa;&#xa;資料來源：花蓮市文化光觀資訊網" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node13">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2911" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4366" levelingpitch="0">
-      <level preload="0" predecode="0" height="2911" width="4366"/>
-      <level preload="0" predecode="0" height="1455" width="2183"/>
-      <level preload="0" predecode="0" height="727" width="1091"/>
-      <level preload="0" predecode="0" height="363" width="545"/>
-      <level preload="1" predecode="1" height="181" width="272"/>
+    <input levelbiashidpi="1.000" width="4366" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2911" levelbias="0.400" flat="1">
+      <level width="4366" height="2911" preload="0" predecode="0"/>
+      <level width="2183" height="1455" preload="0" predecode="0"/>
+      <level width="1091" height="727" preload="0" predecode="0"/>
+      <level width="545" height="363" preload="0" predecode="0"/>
+      <level width="272" height="181" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node13" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:54" longitude="" copyright="jp-image.space" description="有時候有些東西只存在於那個瞬間。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node13" author="James Lee" customnodeid="" datetime="2024/4/2 11:54" description="有時候有些東西只存在於那個瞬間。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node8">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2397" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3595" levelingpitch="0">
-      <level preload="0" predecode="0" height="2397" width="3595"/>
-      <level preload="0" predecode="0" height="1198" width="1797"/>
-      <level preload="0" predecode="0" height="599" width="898"/>
-      <level preload="1" predecode="1" height="299" width="449"/>
+    <input levelbiashidpi="1.000" width="3595" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2397" levelbias="0.400" flat="1">
+      <level width="3595" height="2397" preload="0" predecode="0"/>
+      <level width="1797" height="1198" preload="0" predecode="0"/>
+      <level width="898" height="599" preload="0" predecode="0"/>
+      <level width="449" height="299" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node8" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:41" longitude="" copyright="jp-image.space" description="不知道在花蓮該去哪嗎？試著從角落找答案吧。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node8" author="James Lee" customnodeid="" datetime="2024/4/2 11:41" description="不知道在花蓮該去哪嗎？試著從角落找答案吧。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node9">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2485" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3727" levelingpitch="0">
-      <level preload="0" predecode="0" height="2485" width="3727"/>
-      <level preload="0" predecode="0" height="1242" width="1863"/>
-      <level preload="0" predecode="0" height="621" width="931"/>
-      <level preload="1" predecode="1" height="310" width="465"/>
+    <input levelbiashidpi="1.000" width="3727" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2485" levelbias="0.400" flat="1">
+      <level width="3727" height="2485" preload="0" predecode="0"/>
+      <level width="1863" height="1242" preload="0" predecode="0"/>
+      <level width="931" height="621" preload="0" predecode="0"/>
+      <level width="465" height="310" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node9" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:42" longitude="" copyright="jp-image.space" description="市區該去走走探險的地方都標給你了，還找不到嗎？" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node9" author="James Lee" customnodeid="" datetime="2024/4/2 11:42" description="市區該去走走探險的地方都標給你了，還找不到嗎？" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node10">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2854" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4281" levelingpitch="0">
-      <level preload="0" predecode="0" height="2854" width="4281"/>
-      <level preload="0" predecode="0" height="1427" width="2140"/>
-      <level preload="0" predecode="0" height="713" width="1070"/>
-      <level preload="0" predecode="0" height="356" width="535"/>
-      <level preload="1" predecode="1" height="178" width="267"/>
+    <input levelbiashidpi="1.000" width="4281" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2854" levelbias="0.400" flat="1">
+      <level width="4281" height="2854" preload="0" predecode="0"/>
+      <level width="2140" height="1427" preload="0" predecode="0"/>
+      <level width="1070" height="713" preload="0" predecode="0"/>
+      <level width="535" height="356" preload="0" predecode="0"/>
+      <level width="267" height="178" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node10" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:45" longitude="" copyright="jp-image.space" description="如果你早上爬不起來看日出，也許可以凝視這裏，明天早上你就.....還是會繼續睡到飽。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node10" author="James Lee" customnodeid="" datetime="2024/4/2 11:45" description="如果你早上爬不起來看日出，也許可以凝視這裏，明天早上你就.....還是會繼續睡到飽。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node11">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3031" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4546" levelingpitch="0">
-      <level preload="0" predecode="0" height="3031" width="4546"/>
-      <level preload="0" predecode="0" height="1515" width="2273"/>
-      <level preload="0" predecode="0" height="757" width="1136"/>
-      <level preload="0" predecode="0" height="378" width="568"/>
-      <level preload="1" predecode="1" height="189" width="284"/>
+    <input levelbiashidpi="1.000" width="4546" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3031" levelbias="0.400" flat="1">
+      <level width="4546" height="3031" preload="0" predecode="0"/>
+      <level width="2273" height="1515" preload="0" predecode="0"/>
+      <level width="1136" height="757" preload="0" predecode="0"/>
+      <level width="568" height="378" preload="0" predecode="0"/>
+      <level width="284" height="189" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node11" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:46" longitude="" copyright="jp-image.space" description="有沒有找到你沒去過的地方？" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node11" author="James Lee" customnodeid="" datetime="2024/4/2 11:46" description="有沒有找到你沒去過的地方？" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node12">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="2902" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4353" levelingpitch="0">
-      <level preload="0" predecode="0" height="2902" width="4353"/>
-      <level preload="0" predecode="0" height="1451" width="2176"/>
-      <level preload="0" predecode="0" height="725" width="1088"/>
-      <level preload="0" predecode="0" height="362" width="544"/>
-      <level preload="1" predecode="1" height="181" width="272"/>
+    <input levelbiashidpi="1.000" width="4353" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2902" levelbias="0.400" flat="1">
+      <level width="4353" height="2902" preload="0" predecode="0"/>
+      <level width="2176" height="1451" preload="0" predecode="0"/>
+      <level width="1088" height="725" preload="0" predecode="0"/>
+      <level width="544" height="362" preload="0" predecode="0"/>
+      <level width="272" height="181" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node12" tags="Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 11:48" longitude="" copyright="jp-image.space" description="除了麻糬，回去前可以帶條魚回家請媽媽煎給你吃唷～" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Gallery 4" nodeid="node12" author="James Lee" customnodeid="" datetime="2024/4/2 11:48" description="除了麻糬，回去前可以帶條魚回家請媽媽煎給你吃唷～" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node15">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3644" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5466" levelingpitch="0">
-      <level preload="0" predecode="0" height="3644" width="5466"/>
-      <level preload="0" predecode="0" height="1822" width="2733"/>
-      <level preload="0" predecode="0" height="911" width="1366"/>
-      <level preload="0" predecode="0" height="455" width="683"/>
-      <level preload="1" predecode="1" height="227" width="341"/>
+    <input levelbiashidpi="1.000" width="5466" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3644" levelbias="0.400" flat="1">
+      <level width="5466" height="3644" preload="0" predecode="0"/>
+      <level width="2733" height="1822" preload="0" predecode="0"/>
+      <level width="1366" height="911" preload="0" predecode="0"/>
+      <level width="683" height="455" preload="0" predecode="0"/>
+      <level width="341" height="227" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node15" tags="" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 10:31" longitude="" copyright="jp-image.space" description="有天外出用餐時，忽然與這個窗花看對眼了。於是回家拿了傢伙，回去找餐廳老闆說：這個窗花與我有精神上的連結，要嘛讓我帶回去，要嘛我留在這裏。&#xa;&#xa;於是在幫餐廳老闆洗了三個晚上的碗筷之後。窗花就出現在這裏。&#xa;&#xa;天下無難事，對吧？" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="" nodeid="node15" author="James Lee" customnodeid="" datetime="2024/4/2 10:31" description="有天外出用餐時，忽然與這個窗花看對眼了。於是回家拿了傢伙，回去找餐廳老闆說：這個窗花與我有精神上的連結，要嘛讓我帶回去，要嘛我留在這裏。&#xa;&#xa;於是在幫餐廳老闆洗了三個晚上的碗筷之後。窗花就出現在這裏。&#xa;&#xa;天下無難事，對吧？" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node14">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" cylinder="1" flat="1" height="3648" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5472" levelingpitch="0">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3648" levelbias="0.400" flat="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
       <preview color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0" pan="0" fov="500" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="0" fov="140" fovstereographic="330"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata nodeid="node14" tags="Enfuse HDR output|Gallery 4" heading="0" info="" source="" title="民宿角落的世界" comment="" datetime="2024/4/2 12:13" longitude="" copyright="jp-image.space" description="當客人都回去了，老闆就會化身為累攤的熊大。&#xa;只想闔上眼好好的休息，充飽電，再次迎接下一組緣分。" customnodeid="" author="James Lee" latitude=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" border="1" bordercolor="0x000000" width="180" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata comment="" source="" copyright="jp-image.space" tags="Enfuse HDR output|Gallery 4" nodeid="node14" author="James Lee" customnodeid="" datetime="2024/4/2 12:13" description="當客人都回去了，老闆就會化身為累攤的熊大。&#xa;只想闔上眼好好的休息，充飽電，再次迎接下一組緣分。" longitude="" info="" heading="0" title="民宿角落的世界" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomfov="40" zoomafteroutfov="40" enabled="1" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomout="0" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" zoomcentercursor="1" lockedmouse="0" invertwheel="0" invertcontrol="1" contextprojections="0" sensitivity="8" contextvr="1" lockedwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" rubberband="0"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" description="這裡不單是房間乾淨、床舖好睡、東西好吃、老闆熱情、交通便利、停車方便而已，每個角落都有個小世界，有個小故事等著被挖掘。" title="角落裡的小世界" author="" comment=""/>
+    <userdata tags="" author="" description="這裡不單是房間乾淨、床舖好睡、東西好吃、老闆熱情、交通便利、停車方便而已，每個角落都有個小世界，有個小故事等著被挖掘。" comment="" copyright="" title="角落裡的小世界"/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
